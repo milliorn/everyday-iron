@@ -1,6 +1,3 @@
-[[plugins]]
-package = "netlify-plugin-hashfiles"
-
 [[redirects]]
 from = "/*"
 to = "/index.html"
