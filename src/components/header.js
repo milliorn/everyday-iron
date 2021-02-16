@@ -24,7 +24,7 @@ export default class Header extends React.Component {
               href="#page-top"
               onClick={Scroller.handleAnchorScroll}
             >
-              Start Bootstrap
+              Everyday Iron Workout Warehouse
             </a>
             <Navbar.Toggle aria-controls="navbarResponsive" />
             <Navbar.Collapse id="navbarResponsive">
