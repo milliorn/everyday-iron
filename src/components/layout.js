@@ -62,9 +62,14 @@ export default class Layout extends React.Component {
         <main>{this.props.children}</main>
         <footer className="bg-light py-5">
           <div className="container">
-            <div className="small text-center text-muted">
-              Copyright &copy; 2019 - Start Bootstrap
-            </div>
+          <h6 className="large text-center text-bold">
+            4762 W Jennifer Ave, Suite 105 Fresno, CA 93722
+          </h6>
+          <br></br>
+          <h6 className="large text-center text-muted">
+            &copy; {new Date().getFullYear()} Everyday Iron Workout Warehouse
+          </h6>
+
           </div>
         </footer>
       </div>
