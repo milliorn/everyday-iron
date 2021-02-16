@@ -100,7 +100,7 @@ export default class Header extends React.Component {
                   href="#about"
                   onClick={Scroller.handleAnchorScroll}
                 >
-                  Find Out More
+                  Learn More
 								</a>
               </div>
             </div>
