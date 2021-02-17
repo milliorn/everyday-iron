@@ -221,9 +221,8 @@ export default class IndexPage extends React.Component {
                 <h2 className="mt-0">Owned and Operated by U.S. ARMY Veteran</h2>
                 <hr className="divider my-4" />
                 <p className="text-muted mb-5">
-                  Ready to start your next project with us? Give us a call or
-                  send us an email and we will get back to you as soon as
-                  possible!
+                  Ready to start your fitness journey with us? Give us a call or send us an
+                  email and we will get back to you as soon as possible!
                 </p>
               </div>
             </div>
