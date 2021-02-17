@@ -77,7 +77,7 @@ export default class IndexPage extends React.Component {
               <div className="col-lg-4 col-sm-6">
                 <a
                   className="portfolio-box"
-                  href="img/portfolio/fullsize/1.jpg"
+                  href="img/portfolio/fullsize/squat.jpg"
                   onClick={this.handlePortfolioClick.bind(this, 0)}
                 >
                   <Img
@@ -96,7 +96,7 @@ export default class IndexPage extends React.Component {
               <div className="col-lg-4 col-sm-6">
                 <a
                   className="portfolio-box"
-                  href="img/portfolio/fullsize/2.jpg"
+                  href="img/portfolio/fullsize/board_press.jpg"
                   onClick={this.handlePortfolioClick.bind(this, 1)}
                 >
                   <Img
@@ -115,7 +115,7 @@ export default class IndexPage extends React.Component {
               <div className="col-lg-4 col-sm-6">
                 <a
                   className="portfolio-box"
-                  href="img/portfolio/fullsize/3.jpg"
+                  href="img/portfolio/fullsize/deadlift.jpg"
                   onClick={this.handlePortfolioClick.bind(this, 2)}
                 >
                   <Img
@@ -134,7 +134,7 @@ export default class IndexPage extends React.Component {
               <div className="col-lg-4 col-sm-6">
                 <a
                   className="portfolio-box"
-                  href="images/portfolio/fullsize/4.jpg"
+                  href="images/portfolio/fullsize/dumbell.jpg"
                   onClick={this.handlePortfolioClick.bind(this, 3)}
                 >
                   <Img
@@ -153,7 +153,7 @@ export default class IndexPage extends React.Component {
               <div className="col-lg-4 col-sm-6">
                 <a
                   className="portfolio-box"
-                  href="img/portfolio/fullsize/5.jpg"
+                  href="img/portfolio/fullsize/body_building.jpg"
                   onClick={this.handlePortfolioClick.bind(this, 4)}
                 >
                   <Img
@@ -172,7 +172,7 @@ export default class IndexPage extends React.Component {
               <div className="col-lg-4 col-sm-6">
                 <a
                   className="portfolio-box"
-                  href="img/portfolio/fullsize/6.jpg"
+                  href="img/portfolio/fullsize/cable.jpg"
                   onClick={this.handlePortfolioClick.bind(this, 5)}
                 >
                   <Img
@@ -221,7 +221,7 @@ export default class IndexPage extends React.Component {
           <div className="container">
             <div className="row justify-content-center">
               <div className="col-lg-8 text-center">
-                <h2 className="mt-0">Let's Get In Touch!</h2>
+                <h2 className="mt-0">Staff</h2>
                 <hr className="divider my-4" />
                 <p className="text-muted mb-5">
                   Ready to start your next project with us? Give us a call or
