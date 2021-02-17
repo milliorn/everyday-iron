@@ -249,15 +249,15 @@ export default class IndexPage extends React.Component {
 					<div class="container">
 						<div class="text-center text-bold text-white">Join us on Social Media!
 							<div class="text-center p-3">
-							<a class="btn btn-dark btn-social mx-2" href="https://www.facebook.com/rhinosEI" target="_blank"
-								rel="noreferrer" aria-label="Facebook"><i class="fab fa-facebook-f"></i> Facebook</a>
-							<a class="btn btn-dark btn-social mx-2" href="https://www.instagram.com/everyday_iron"
-								target="_blank" rel="noreferrer" aria-label="Instagram"><i class="fab fa-instagram"></i>
-									Instagram</a>
+								<a class="btn btn-dark btn-social mx-2" href="https://www.facebook.com/rhinosEI" target="_blank"
+									rel="noreferrer" aria-label="Facebook"><i class="fab fa-facebook-f"></i> Facebook</a>
+								<a class="btn btn-dark btn-social mx-2" href="https://www.instagram.com/everyday_iron"
+									target="_blank" rel="noreferrer" aria-label="Instagram"><i class="fab fa-instagram"></i> Instagram</a>
+								<a class="btn btn-dark btn-social mx-2" href="https://goo.gl/maps/KDzH3bjZMYFmi7HN9"
+									target="_blank" rel="noreferrer" aria-label="Instagram"><i class="fas fa-map-marker-alt"></i> Maps</a>
 							</div>
 						</div>
 					</div>
-
 				</section>
 
 				<PortfolioModal
