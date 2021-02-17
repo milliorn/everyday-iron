@@ -54,16 +54,16 @@ export default class IndexPage extends React.Component {
                   <i className="fas fa-heartbeat fa-10x mb-4 text-primary"></i>
                   <h3 className="h4 mb-2">Personal Training</h3>
                   <p className="text-muted mb-0">
-                  Get into the best shape of your life. Our trainers here can show you how to reach your goals.
+                    Get into the best shape of your life. Our trainers here can show you how to reach your goals.
                   </p>
                 </div>
               </div>
               <div className="col-lg-3 col-md-6 text-center">
                 <div className="mt-5">
-                  <i className="fas fa-4x fa-globe text-primary mb-4"></i>
-                  <h3 className="h4 mb-2">Ready to Publish</h3>
+                  <i className="fas fa-wheelchair fa-10x mb-4 text-primary"></i>
+                  <h3 className="h4 mb-2">Physcial Rehabilitation</h3>
                   <p className="text-muted mb-0">
-                    You can use this design as is, or you can make changes!
+                    Whether its therapy or to turn your life around we will be here to help you all the way.
                   </p>
                 </div>
               </div>
