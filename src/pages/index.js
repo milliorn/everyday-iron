@@ -52,9 +52,9 @@ export default class IndexPage extends React.Component {
               <div className="col-lg-3 col-md-6 text-center">
                 <div className="mt-5">
                   <i className="fas fa-heartbeat fa-10x mb-4 text-primary"></i>
-                  <h3 className="h4 mb-2">Up to Date</h3>
+                  <h3 className="h4 mb-2">Personal Training</h3>
                   <p className="text-muted mb-0">
-                    All dependencies are kept current to keep things fresh.
+                  Get into the best shape of your life. Our trainers here can show you how to reach your goals.
                   </p>
                 </div>
               </div>
