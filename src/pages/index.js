@@ -217,24 +217,26 @@ export default class IndexPage extends React.Component {
 				<section className="page-section" id="contact">
 					<div className="container">
 						<div className="row justify-content-center">
-							<div className="col-lg-8 text-center">
+							<div className="col-lg-8 text-center text-secondary">
 								<h2 className="mt-0">Owned and Operated by U.S. ARMY Veteran</h2>
 								<hr className="divider my-4" />
-								<p className="text-bold mb-5">
+								<p className="text-white mb-5">
 									Ready to start your fitness journey with us? Give us a call or send us an
 									email and we will get back to you as soon as possible!
+									<br></br>
+									<br></br>
 								</p>
 							</div>
 						</div>
 						<div className="row">
 							<div className="col-lg-4 ml-auto text-center mb-5 mb-lg-0">
-								<i className="fas fa-phone fa-3x mb-3 text-bold"></i>
-								<p className="text-bold">Call</p>
+								<i className="fas fa-phone fa-3x mb-3 text-muted"></i>
+								<p className="text-white">Call</p>
 								<a class="text-bold" href="tel:+1-559-577-8679">+1 (559) 577-8679</a>
 							</div>
 							<div className="col-lg-4 mr-auto text-center">
-								<i className="fas fa-envelope fa-3x mb-3 text-bold"></i>
-								<p className="text-bold">Email</p>
+								<i className="fas fa-envelope fa-3x mb-3 text-muted"></i>
+								<p className="text-white">Email</p>
 								<a className="d-block" href="mailto:everydayiron8489@gmail.com">
 									everydayiron8489@gmail.com
 								</a>
