@@ -232,9 +232,10 @@ export default class IndexPage extends React.Component {
                 <div>+1 (202) 555-0149</div>
               </div>
               <div className="col-lg-4 mr-auto text-center">
-                <i className="fas fa-envelope fa-3x mb-3 text-muted"></i>
-                <a className="d-block" href="mailto:contact@yourwebsite.com">
-                  contact@yourwebsite.com
+                <i className="fas fa-envelope fa-3x mb-3 text-bold"></i>
+                <p className="text-bold">Email US!</p>
+                <a className="d-block" href="mailto:everydayiron8489@gmail.com">
+                everydayiron8489@gmail.com
                 </a>
               </div>
             </div>
