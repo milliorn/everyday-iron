@@ -230,7 +230,7 @@ export default class IndexPage extends React.Component {
               <div className="col-lg-4 ml-auto text-center mb-5 mb-lg-0">
                 <i className="fas fa-phone fa-3x mb-3 text-bold"></i>
                 <p className="text-bold">Call</p>
-                <div>+1 (202) 555-0149</div>
+                <a class="text-bold" href="tel:+1-559-577-8679">+1 (559) 577-8679</a>
               </div>
               <div className="col-lg-4 mr-auto text-center">
                 <i className="fas fa-envelope fa-3x mb-3 text-bold"></i>
