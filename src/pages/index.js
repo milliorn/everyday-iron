@@ -42,7 +42,7 @@ export default class IndexPage extends React.Component {
             <div className="row">
               <div className="col-lg-3 col-md-6 text-center">
                 <div className="mt-5">
-                  <i className="fas fa-4x fas fa-dumbbell text-primary mb-4"></i>
+                  <i className="fas fa-dumbbell fa-10x mb-4 text-primary mb-4"></i>
                   <h3 className="h4 mb-2">Powerlifting</h3>
                   <p className="text-muted mb-0">
                     We have experienced coaches who can get you to meet your goals in competition or hobby.
