@@ -197,13 +197,10 @@ export default class IndexPage extends React.Component {
           <div className="container">
             <div className="row justify-content-center">
               <div className="col-lg-8 text-center">
-                <h2 className="text-white mt-0">We've got what you need!</h2>
+                <h2 className="text-white mt-0">Staff</h2>
                 <hr className="divider light my-4" />
                 <p className="text-white-50 mb-4">
-                  Start Bootstrap has everything you need to get your new
-                  website up and running in no time! Choose one of our open
-                  source, free to download, and easy to use themes! No strings
-                  attached!
+                  Start Bootstrap!
                 </p>
                 <a
                   className="btn btn-light btn-xl js-scroll-trigger"
@@ -221,7 +218,7 @@ export default class IndexPage extends React.Component {
           <div className="container">
             <div className="row justify-content-center">
               <div className="col-lg-8 text-center">
-                <h2 className="mt-0">Staff</h2>
+                <h2 className="mt-0">Owned and Operated by U.S. ARMY Veteran</h2>
                 <hr className="divider my-4" />
                 <p className="text-muted mb-5">
                   Ready to start your next project with us? Give us a call or
