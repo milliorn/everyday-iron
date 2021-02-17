@@ -39,15 +39,6 @@ export default class Header extends React.Component {
                   <li className="nav-item">
                     <Nav.Link
                       className={"js-scroll-trigger"}
-                      href="#about"
-                      onClick={Scroller.handleAnchorScroll}
-                    >
-                      About
-										</Nav.Link>
-                  </li>
-                  <li className="nav-item">
-                    <Nav.Link
-                      className={"js-scroll-trigger"}
                       href="#services"
                       onClick={Scroller.handleAnchorScroll}
                     >
@@ -60,7 +51,16 @@ export default class Header extends React.Component {
                       href="#portfolio"
                       onClick={Scroller.handleAnchorScroll}
                     >
-                      Portfolio
+                      Gallery
+										</Nav.Link>
+                  </li>
+                  <li className="nav-item">
+                    <Nav.Link
+                      className={"js-scroll-trigger"}
+                      href="#about"
+                      onClick={Scroller.handleAnchorScroll}
+                    >
+                      Staff
 										</Nav.Link>
                   </li>
                   <li className="nav-item">
@@ -97,7 +97,7 @@ export default class Header extends React.Component {
 								</p>
                 <a
                   className="btn btn-primary btn-xl js-scroll-trigger"
-                  href="#about"
+                  href="#staff"
                   onClick={Scroller.handleAnchorScroll}
                 >
                   Learn More

@@ -204,7 +204,7 @@ export default class IndexPage extends React.Component {
 								</p>
 								<a
 									className="btn btn-light btn-xl js-scroll-trigger"
-									href="#services"
+									href="#contact"
 									onClick={Scroller.handleAnchorScroll}
 								>
 									Get Started!
