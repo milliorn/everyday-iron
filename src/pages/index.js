@@ -40,7 +40,7 @@ export default class IndexPage extends React.Component {
             <h2 className="text-center mt-0">Rhinos Athletic Performance Is All About Change!</h2>
             <hr className="divider my-4" />
             <div className="row">
-              <div className="col-lg-3 col-md-6 text-center">
+              <div className="col-lg-4 col-md-6 text-center">
                 <div className="mt-5">
                   <i className="fas fa-dumbbell fa-10x mb-4 text-primary"></i>
                   <h3 className="h4 mb-2">Powerlifting</h3>
@@ -49,7 +49,7 @@ export default class IndexPage extends React.Component {
                   </p>
                 </div>
               </div>
-              <div className="col-lg-3 col-md-6 text-center">
+              <div className="col-lg-4 col-md-6 text-center">
                 <div className="mt-5">
                   <i className="fas fa-heartbeat fa-10x mb-4 text-primary"></i>
                   <h3 className="h4 mb-2">Personal Training</h3>
@@ -58,21 +58,12 @@ export default class IndexPage extends React.Component {
                   </p>
                 </div>
               </div>
-              <div className="col-lg-3 col-md-6 text-center">
+              <div className="col-lg-4 col-md-6 text-center">
                 <div className="mt-5">
                   <i className="fas fa-wheelchair fa-10x mb-4 text-primary"></i>
-                  <h3 className="h4 mb-2">Physcial Rehabilitation</h3>
+                  <h3 className="h4 mb-2">Rehabilitation</h3>
                   <p className="text-muted mb-0">
                     Whether its therapy or to turn your life around we will be here to help you all the way.
-                  </p>
-                </div>
-              </div>
-              <div className="col-lg-3 col-md-6 text-center">
-                <div className="mt-5">
-                  <i className="fas fa-4x fa-heart text-primary mb-4"></i>
-                  <h3 className="h4 mb-2">Made with Love</h3>
-                  <p className="text-muted mb-0">
-                    Is it really open source if it's not made with love?
                   </p>
                 </div>
               </div>
