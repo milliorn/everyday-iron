@@ -42,7 +42,7 @@ export default class IndexPage extends React.Component {
             <div className="row">
               <div className="col-lg-3 col-md-6 text-center">
                 <div className="mt-5">
-                  <i className="fas fa-dumbbell fa-10x mb-4 text-primary mb-4"></i>
+                  <i className="fas fa-dumbbell fa-10x mb-4 text-primary"></i>
                   <h3 className="h4 mb-2">Powerlifting</h3>
                   <p className="text-muted mb-0">
                     We have experienced coaches who can get you to meet your goals in competition or hobby.
@@ -51,7 +51,7 @@ export default class IndexPage extends React.Component {
               </div>
               <div className="col-lg-3 col-md-6 text-center">
                 <div className="mt-5">
-                  <i className="fas fa-4x fa-laptop-code text-primary mb-4"></i>
+                  <i className="fas fa-heartbeat fa-10x mb-4 text-primary"></i>
                   <h3 className="h4 mb-2">Up to Date</h3>
                   <p className="text-muted mb-0">
                     All dependencies are kept current to keep things fresh.
