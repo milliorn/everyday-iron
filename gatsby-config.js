@@ -2,7 +2,7 @@ module.exports = {
   pathPrefix: `/gatsby-creative`,
   siteMetadata: {
     title: `Gatsby Default Starter`,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
+    description: `(559) 577-8679 4762 W Jennifer Ave, Suite 105 Fresno, CA 93722`,
     author: `@gatsbyjs`,
   },
   plugins: [
