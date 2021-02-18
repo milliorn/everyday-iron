@@ -230,7 +230,7 @@ export default class IndexPage extends React.Component {
 							<div className="col-lg-4 ml-auto text-center mb-5 mb-lg-0">
 								<i className="fas fa-phone fa-3x mb-3 text-muted"></i>
 								<p className="text-white">Call</p>
-								<a class="text-bold" href="tel:+1-559-577-8679">+1 (559) 577-8679</a>
+								<a className="text-bold" href="tel:+1-559-577-8679">+1 (559) 577-8679</a>
 							</div>
 							<div className="col-lg-4 mr-auto text-center">
 								<i className="fas fa-envelope fa-3x mb-3 text-muted"></i>
@@ -243,16 +243,16 @@ export default class IndexPage extends React.Component {
 					</div>
 				</section>
 
-				<section class="social py-5 bg-secondary" id="social">
-					<div class="container">
-						<div class="text-center text-bold text-white">Join us on Social Media!
-							<div class="text-center p-3">
-								<a class="btn btn-dark btn-social mx-2" href="https://www.facebook.com/rhinosEI" target="_blank"
+				<section className="social py-5 bg-secondary" id="social">
+					<div className="container">
+						<div className="text-center text-bold text-white">Join us on Social Media!
+							<div className="text-center p-3">
+								<a className="btn btn-dark btn-social mx-2" href="https://www.facebook.com/rhinosEI" target="_blank"
 									rel="noreferrer" aria-label="Facebook"><i class="fab fa-facebook-f"></i> Facebook</a>
-								<a class="btn btn-dark btn-social mx-2" href="https://www.instagram.com/everyday_iron"
+								<a className="btn btn-dark btn-social mx-2" href="https://www.instagram.com/everyday_iron"
 									target="_blank" rel="noreferrer" aria-label="Instagram"><i class="fab fa-instagram"></i> Instagram</a>
-								<a class="btn btn-dark btn-social mx-2" href="https://goo.gl/maps/KDzH3bjZMYFmi7HN9"
-									target="_blank" rel="noreferrer" aria-label="Instagram"><i class="fas fa-map-marker-alt"></i> Maps</a>
+								<a className="btn btn-dark btn-social mx-2" href="https://goo.gl/maps/KDzH3bjZMYFmi7HN9"
+									target="_blank" rel="noreferrer" aria-label="Maps"><i class="fas fa-map-marker-alt"></i> Maps</a>
 							</div>
 						</div>
 					</div>

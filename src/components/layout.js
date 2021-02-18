@@ -71,7 +71,7 @@ export default class Layout extends React.Component {
           </h6>
             <br></br>
             <h6 className="small text-center text-muted">
-            <a href="mailto:scottmilliorn@gmail.com">Contact Webmaster</a>
+            <a href="https://github.com/milliorn" target="_blank">Contact Webmaster</a>
           </h6>
 
           </div>
