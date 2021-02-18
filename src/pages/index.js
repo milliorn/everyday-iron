@@ -199,9 +199,7 @@ export default class IndexPage extends React.Component {
 							<div className="col-lg-8 text-center">
 								<h2 className="text-white mt-0">Staff</h2>
 								<hr className="divider light my-4" />
-								<p className="text-white-50 mb-4">
-									Start Bootstrap!
-								</p>
+
 								<a
 									className="btn btn-light btn-xl js-scroll-trigger"
 									href="#contact"
