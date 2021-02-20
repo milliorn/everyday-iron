@@ -78,7 +78,7 @@ export default class IndexPage extends React.Component {
 							<div className="col-lg-4 col-sm-6">
 								<a
 									className="portfolio-box"
-									href="img/portfolio/fullsize/squat.jpg"
+									href="../images/portfolio/fullsize/squat.jpg"
 									onClick={this.handlePortfolioClick.bind(this, 0)}
 								>
 									<Img
@@ -88,7 +88,7 @@ export default class IndexPage extends React.Component {
 									/>
 									<div className="portfolio-box-caption">
 										<div className="project-category text-white-50">
-											Category
+											Squat
 										</div>
 										<div className="project-name">Project Name</div>
 									</div>
@@ -97,7 +97,7 @@ export default class IndexPage extends React.Component {
 							<div className="col-lg-4 col-sm-6">
 								<a
 									className="portfolio-box"
-									href="img/portfolio/fullsize/board_press.jpg"
+									href="../images/portfolio/fullsize/board_press.jpg"
 									onClick={this.handlePortfolioClick.bind(this, 1)}
 								>
 									<Img
@@ -107,7 +107,7 @@ export default class IndexPage extends React.Component {
 									/>
 									<div className="portfolio-box-caption">
 										<div className="project-category text-white-50">
-											Category
+											Bench Press
 										</div>
 										<div className="project-name">Project Name</div>
 									</div>
@@ -116,7 +116,7 @@ export default class IndexPage extends React.Component {
 							<div className="col-lg-4 col-sm-6">
 								<a
 									className="portfolio-box"
-									href="img/portfolio/fullsize/deadlift.jpg"
+									href="../images/portfolio/fullsize/deadlift.jpg"
 									onClick={this.handlePortfolioClick.bind(this, 2)}
 								>
 									<Img
@@ -126,7 +126,7 @@ export default class IndexPage extends React.Component {
 									/>
 									<div className="portfolio-box-caption">
 										<div className="project-category text-white-50">
-											Category
+											Deadlift
 										</div>
 										<div className="project-name">Project Name</div>
 									</div>
@@ -135,7 +135,7 @@ export default class IndexPage extends React.Component {
 							<div className="col-lg-4 col-sm-6">
 								<a
 									className="portfolio-box"
-									href="images/portfolio/fullsize/dumbell.jpg"
+									href="../images/portfolio/fullsize/dumbell.jpg"
 									onClick={this.handlePortfolioClick.bind(this, 3)}
 								>
 									<Img
@@ -145,7 +145,7 @@ export default class IndexPage extends React.Component {
 									/>
 									<div className="portfolio-box-caption">
 										<div className="project-category text-white-50">
-											Category
+											Free Weights
 										</div>
 										<div className="project-name">Project Name</div>
 									</div>
@@ -154,7 +154,7 @@ export default class IndexPage extends React.Component {
 							<div className="col-lg-4 col-sm-6">
 								<a
 									className="portfolio-box"
-									href="img/portfolio/fullsize/body_building.jpg"
+									href="../images/portfolio/fullsize/body_building.jpg"
 									onClick={this.handlePortfolioClick.bind(this, 4)}
 								>
 									<Img
@@ -164,7 +164,7 @@ export default class IndexPage extends React.Component {
 									/>
 									<div className="portfolio-box-caption">
 										<div className="project-category text-white-50">
-											Category
+											Training
 										</div>
 										<div className="project-name">Project Name</div>
 									</div>
@@ -173,7 +173,7 @@ export default class IndexPage extends React.Component {
 							<div className="col-lg-4 col-sm-6">
 								<a
 									className="portfolio-box"
-									href="img/portfolio/fullsize/cable.jpg"
+									href="../images/portfolio/fullsize/cable.jpg"
 									onClick={this.handlePortfolioClick.bind(this, 5)}
 								>
 									<Img
@@ -183,7 +183,7 @@ export default class IndexPage extends React.Component {
 									/>
 									<div className="portfolio-box-caption p-3">
 										<div className="project-category text-white-50">
-											Category
+											Classes
 										</div>
 										<div className="project-name">Project Name</div>
 									</div>
@@ -192,25 +192,6 @@ export default class IndexPage extends React.Component {
 						</div>
 					</div>
 				</section>
-
-				{/*<section className="page-section bg-primary" id="staff">
-					<div className="container">
-						<div className="row justify-content-center">
-							<div className="col-lg-8 text-center">
-								<h2 className="text-white mt-0">Staff</h2>
-								<hr className="divider light my-4" />
-
-								<a
-									className="btn btn-light btn-xl js-scroll-trigger"
-									href="#contact"
-									onClick={Scroller.handleAnchorScroll}
-								>
-									Get Started!
-								</a>
-							</div>
-						</div>
-					</div>
-									</section>*/}
 
 				<section className="page-section" id="contact">
 					<div className="container">
@@ -276,7 +257,6 @@ export const imageData = graphql`
 	query {
 		images: allFile(
 			filter: { relativePath: { glob: "portfolio/fullsize/*.jpg" } }
-			sort: { fields: name }
 		) {
 			edges {
 				node {

@@ -88,7 +88,7 @@ export default class Header extends React.Component {
 								</p>
                 <a
                   className="btn btn-primary btn-xl js-scroll-trigger"
-                  href="#staff"
+                  href="#contact"
                   onClick={Scroller.handleAnchorScroll}
                 >
                   Learn More
