@@ -193,7 +193,7 @@ export default class IndexPage extends React.Component {
 					</div>
 				</section>
 
-				<section className="page-section bg-primary" id="staff">
+				{/*<section className="page-section bg-primary" id="staff">
 					<div className="container">
 						<div className="row justify-content-center">
 							<div className="col-lg-8 text-center">
@@ -210,7 +210,7 @@ export default class IndexPage extends React.Component {
 							</div>
 						</div>
 					</div>
-				</section>
+									</section>*/}
 
 				<section className="page-section" id="contact">
 					<div className="container">
