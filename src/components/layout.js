@@ -69,15 +69,15 @@ export default class Layout extends React.Component {
 
             <br></br>
 
-            <h6 className="small text-center text-black">
+            <h1 className="small text-center text-black">
               &copy; {new Date().getFullYear()} Everyday Iron Workout Warehouse
-            </h6>
+            </h1>
 
             <br></br>
 
-            <h6 className="small text-center text-black">
+            <h1 className="small text-center text-black">
             <a href="https://github.com/milliorn" target="_blank" rel="noreferrer" id="webmaster">Contact Webmaster</a>
-            </h6>
+            </h1>
 
           </div>
         </footer>
