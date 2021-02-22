@@ -97,64 +97,7 @@ export default class IndexPage extends React.Component {
 							<div className="col-lg-4 col-sm-6">
 								<a
 									className="portfolio-box"
-									href="../images/portfolio/fullsize/bench.jpg"
-									onClick={this.handlePortfolioClick.bind(this, 6)}
-								>
-									<Img
-										fluid={
-											this.props.data.images.edges[6].node.childImageSharp.fluid
-										}
-									/>
-									<div className="portfolio-box-caption">
-										<div className="project-category text-white-50">
-											Bench Press
-										</div>
-										<div className="project-name">Project Name</div>
-									</div>
-								</a>
-							</div>
-							<div className="col-lg-4 col-sm-6">
-								<a
-									className="portfolio-box"
-									href="../images/portfolio/fullsize/deadlift.jpg"
-									onClick={this.handlePortfolioClick.bind(this, 3)}
-								>
-									<Img
-										fluid={
-											this.props.data.images.edges[3].node.childImageSharp.fluid
-										}
-									/>
-									<div className="portfolio-box-caption">
-										<div className="project-category text-white-50">
-											Deadlift
-										</div>
-										<div className="project-name">Project Name</div>
-									</div>
-								</a>
-							</div>
-							<div className="col-lg-4 col-sm-6">
-								<a
-									className="portfolio-box"
-									href="../images/portfolio/fullsize/dumbell.jpg"
-									onClick={this.handlePortfolioClick.bind(this, 4)}
-								>
-									<Img
-										fluid={
-											this.props.data.images.edges[4].node.childImageSharp.fluid
-										}
-									/>
-									<div className="portfolio-box-caption">
-										<div className="project-category text-white-50">
-											Free Weights
-										</div>
-										<div className="project-name"></div>
-									</div>
-								</a>
-							</div>
-							<div className="col-lg-4 col-sm-6">
-								<a
-									className="portfolio-box"
-									href="../images/portfolio/fullsize/body_building.jpg"
+									href="../images/portfolio/fullsize/boardpress.jpg"
 									onClick={this.handlePortfolioClick.bind(this, 1)}
 								>
 									<Img
@@ -164,16 +107,54 @@ export default class IndexPage extends React.Component {
 									/>
 									<div className="portfolio-box-caption">
 										<div className="project-category text-white-50">
-											Training
+											Bench Press
 										</div>
-										<div className="project-name">Project Name</div>
+										<div className="project-name">Bench Press</div>
 									</div>
 								</a>
 							</div>
 							<div className="col-lg-4 col-sm-6">
 								<a
 									className="portfolio-box"
-									href="../images/portfolio/fullsize/cable.jpg"
+									href="../images/portfolio/fullsize/deadlift.jpg"
+									onClick={this.handlePortfolioClick.bind(this, 4)}
+								>
+									<Img
+										fluid={
+											this.props.data.images.edges[4].node.childImageSharp.fluid
+										}
+									/>
+									<div className="portfolio-box-caption">
+										<div className="project-category text-white-50">
+											Deadlift
+										</div>
+										<div className="project-name">Deadlift</div>
+									</div>
+								</a>
+							</div>
+							<div className="col-lg-4 col-sm-6">
+								<a
+									className="portfolio-box"
+									href="../images/portfolio/fullsize/dumbell.jpg"
+									onClick={this.handlePortfolioClick.bind(this, 5)}
+								>
+									<Img
+										fluid={
+											this.props.data.images.edges[5].node.childImageSharp.fluid
+										}
+									/>
+									<div className="portfolio-box-caption">
+										<div className="project-category text-white-50">
+											Free Weights
+										</div>
+										<div className="project-name">Free Weights</div>
+									</div>
+								</a>
+							</div>
+							<div className="col-lg-4 col-sm-6">
+								<a
+									className="portfolio-box"
+									href="../images/portfolio/fullsize/body_building.jpg"
 									onClick={this.handlePortfolioClick.bind(this, 2)}
 								>
 									<Img
@@ -181,11 +162,30 @@ export default class IndexPage extends React.Component {
 											this.props.data.images.edges[2].node.childImageSharp.fluid
 										}
 									/>
+									<div className="portfolio-box-caption">
+										<div className="project-category text-white-50">
+											Training
+										</div>
+										<div className="project-name">Training</div>
+									</div>
+								</a>
+							</div>
+							<div className="col-lg-4 col-sm-6">
+								<a
+									className="portfolio-box"
+									href="../images/portfolio/fullsize/cable.jpg"
+									onClick={this.handlePortfolioClick.bind(this, 3)}
+								>
+									<Img
+										fluid={
+											this.props.data.images.edges[3].node.childImageSharp.fluid
+										}
+									/>
 									<div className="portfolio-box-caption p-3">
 										<div className="project-category text-white-50">
 											Classes
 										</div>
-										<div className="project-name">Project Name</div>
+										<div className="project-name">Classes</div>
 									</div>
 								</a>
 							</div>
