@@ -7,7 +7,7 @@ module.exports = {
   },
   plugins: [
     `gatsby-plugin-preload-fonts`,
-    'gatsby-plugin-netlify',
+    "gatsby-plugin-netlify",
     `gatsby-plugin-react-helmet`,
     {
       resolve: `gatsby-source-filesystem`,
@@ -49,14 +49,14 @@ module.exports = {
       },
     },
     {
-    resolve: `gatsby-plugin-canonical-urls`,
+      resolve: `gatsby-plugin-canonical-urls`,
       options: {
-        siteUrl: `https://everyday-iron.netlify.app`
-      }
+        siteUrl: `https://everyday-iron.netlify.app`,
+      },
     },
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
     `gatsby-plugin-preact`,
-    `gatsby-plugin-offline`
-  ]
+    `gatsby-plugin-offline`,
+  ],
 }
