@@ -7,7 +7,6 @@ module.exports = {
   },
   plugins: [
     "gatsby-plugin-netlify",
-    `gatsby-plugin-react-helmet`,
     {
       resolve: "gatsby-plugin-web-font-loader",
       options: {
@@ -29,7 +28,9 @@ module.exports = {
         display: 'swap'
       }
     },
-    `gatsby-plugin-preload-fonts`,
+    `gatsby-plugin-react-helmet`,
+    `gatsby-plugin-preact`,
+    `gatsby-plugin-sass`,
     {
       resolve: `gatsby-source-filesystem`,
       options: {
@@ -46,10 +47,16 @@ module.exports = {
       },
     },
     {
+      resolve: `gatsby-plugin-canonical-urls`,
+      options: {
+        siteUrl: `https://everyday-iron.netlify.app`,
+      },
+    },
+    {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `gatsby-starter-default`,
-        short_name: `starter`,
+        name: `Everyday Iron Workout Warehouse`,
+        short_name: `Everyday Iron`,
         start_url: `/`,
         background_color: `#663399`,
         theme_color: `#663399`,
@@ -57,16 +64,8 @@ module.exports = {
         icon: `src/images/favicon.jpg`, // This path is relative to the root of the site.
       },
     },
-    `gatsby-plugin-sass`,
-    {
-      resolve: `gatsby-plugin-canonical-urls`,
-      options: {
-        siteUrl: `https://everyday-iron.netlify.app`,
-      },
-    },
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
-    `gatsby-plugin-preact`,
     `gatsby-plugin-offline`
   ]
 }
