@@ -1,11 +1,12 @@
 module.exports = {
   pathPrefix: `/gatsby-creative`,
   siteMetadata: {
-    title: `Gatsby Default Starter`,
+    title: `Everyday Iron Workout Warehouse`,
     description: `(559) 577-8679 4762 W Jennifer Ave, Suite 105 Fresno, CA 93722`,
     author: `@gatsbyjs`,
   },
   plugins: [
+    `gatsby-plugin-preload-fonts`,
     'gatsby-plugin-netlify',
     `gatsby-plugin-react-helmet`,
     {
@@ -57,5 +58,5 @@ module.exports = {
     // To learn more, visit: https://gatsby.dev/offline
     `gatsby-plugin-preact`,
     `gatsby-plugin-offline`
-  ],
+  ]
 }
