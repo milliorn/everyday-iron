@@ -7,3 +7,5 @@ WIP
 [![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://github.com/milliorn/Everyday-Iron/graphs/commit-activity)
 ![Mark stale issues and pull requests](https://github.com/milliorn/Everyday-Iron/workflows/Mark%20stale%20issues%20and%20pull%20requests/badge.svg)
 [![Compress Images](https://github.com/milliorn/Everyday-Iron/actions/workflows/calibreapp-image-actions.yml/badge.svg)](https://github.com/milliorn/Everyday-Iron/actions/workflows/calibreapp-image-actions.yml)
+
+![Lighthouse](https://github.com/milliorn/Everyday-Iron/tree/master/src/images/lighthouse)
