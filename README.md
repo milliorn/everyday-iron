@@ -8,4 +8,4 @@ WIP
 ![Mark stale issues and pull requests](https://github.com/milliorn/Everyday-Iron/workflows/Mark%20stale%20issues%20and%20pull%20requests/badge.svg)
 [![Compress Images](https://github.com/milliorn/Everyday-Iron/actions/workflows/calibreapp-image-actions.yml/badge.svg)](https://github.com/milliorn/Everyday-Iron/actions/workflows/calibreapp-image-actions.yml)
 
-![Lighthouse(https://github.com/milliorn/Everyday-Iron/tree/master/src/images/lighthouse.png)](https://github.com/milliorn/Everyday-Iron/tree/master/src/images/lighthouse.png)
+![Lighthouse 100 Score](https://github.com/milliorn/Everyday-Iron/blob/master/src/images/lighthouse.png)
