@@ -6,26 +6,30 @@ module.exports = {
     author: `@gatsbyjs`,
   },
   plugins: [
-    `gatsby-plugin-preload-fonts`,
     "gatsby-plugin-netlify",
     `gatsby-plugin-react-helmet`,
+    {
+      resolve: "gatsby-plugin-web-font-loader",
+      options: {
+        google: {
+          families: [
+            "Merriweather:400,300,300italic,400italic,700,700italic",
+            "Merriweather+Sans:400,700",
+          ],
+        },
+      },
+    },
     {
       resolve: `gatsby-plugin-google-fonts`,
       options: {
         fonts: [
+          'Merriweather',
           `Merriweather Sans`,
-          `Segoe UI`,
-          "Helvetica Neue",
-          "Arial",
-          "Noto Sans",
-          "Apple Color Emoji",
-          "Segoe UI Emoji",
-          "Segoe UI Symbol",
-          'Noto Color Emoji'
         ],
         display: 'swap'
       }
     },
+    `gatsby-plugin-preload-fonts`,
     {
       resolve: `gatsby-source-filesystem`,
       options: {
@@ -54,17 +58,6 @@ module.exports = {
       },
     },
     `gatsby-plugin-sass`,
-    {
-      resolve: "gatsby-plugin-web-font-loader",
-      options: {
-        google: {
-          families: [
-            "Merriweather:400,300,300italic,400italic,700,700italic",
-            "Merriweather+Sans:400,700",
-          ],
-        },
-      },
-    },
     {
       resolve: `gatsby-plugin-canonical-urls`,
       options: {
