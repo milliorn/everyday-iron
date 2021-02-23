@@ -75,10 +75,11 @@ export default class IndexPage extends React.Component {
 				<section id="portfolio">
 					<div className="container-fluid p-0">
 						<div className="row no-gutters">
+
 							<div className="col-lg-4 col-sm-6">
 								<a
 									className="portfolio-box"
-									href="../images/portfolio/fullsize/squat.jpg"
+									href="../images/portfolio/fullsize/0.jpg"
 									onClick={this.handlePortfolioClick.bind(this, 0)}
 								>
 									<Img
@@ -94,15 +95,16 @@ export default class IndexPage extends React.Component {
 									</div>
 								</a>
 							</div>
+
 							<div className="col-lg-4 col-sm-6">
 								<a
 									className="portfolio-box"
-									href="../images/portfolio/fullsize/boardpress.jpg"
-									onClick={this.handlePortfolioClick.bind(this, 1)}
+									href="../images/portfolio/fullsize/1.jpg"
+									onClick={this.handlePortfolioClick.bind(this, 5)}
 								>
 									<Img
 										fluid={
-											this.props.data.images.edges[1].node.childImageSharp.fluid
+											this.props.data.images.edges[5].node.childImageSharp.fluid
 										}
 									/>
 									<div className="portfolio-box-caption">
@@ -113,11 +115,12 @@ export default class IndexPage extends React.Component {
 									</div>
 								</a>
 							</div>
+
 							<div className="col-lg-4 col-sm-6">
 								<a
 									className="portfolio-box"
-									href="../images/portfolio/fullsize/deadlift.jpg"
-									onClick={this.handlePortfolioClick.bind(this, 4)}
+									href="../images/portfolio/fullsize/2.jpg"
+									onClick={this.handlePortfolioClick.bind(this, 2)}
 								>
 									<Img
 										fluid={
@@ -132,15 +135,16 @@ export default class IndexPage extends React.Component {
 									</div>
 								</a>
 							</div>
+
 							<div className="col-lg-4 col-sm-6">
 								<a
 									className="portfolio-box"
-									href="../images/portfolio/fullsize/dumbell.jpg"
-									onClick={this.handlePortfolioClick.bind(this, 5)}
+									href="../images/portfolio/fullsize/3.jpg"
+									onClick={this.handlePortfolioClick.bind(this, 3)}
 								>
 									<Img
 										fluid={
-											this.props.data.images.edges[5].node.childImageSharp.fluid
+											this.props.data.images.edges[3].node.childImageSharp.fluid
 										}
 									/>
 									<div className="portfolio-box-caption">
@@ -151,15 +155,16 @@ export default class IndexPage extends React.Component {
 									</div>
 								</a>
 							</div>
+
 							<div className="col-lg-4 col-sm-6">
 								<a
 									className="portfolio-box"
-									href="../images/portfolio/fullsize/body_building.jpg"
-									onClick={this.handlePortfolioClick.bind(this, 2)}
+									href="../images/portfolio/fullsize/4.jpg"
+									onClick={this.handlePortfolioClick.bind(this, 1)}
 								>
 									<Img
 										fluid={
-											this.props.data.images.edges[2].node.childImageSharp.fluid
+											this.props.data.images.edges[1].node.childImageSharp.fluid
 										}
 									/>
 									<div className="portfolio-box-caption">
@@ -170,15 +175,16 @@ export default class IndexPage extends React.Component {
 									</div>
 								</a>
 							</div>
+
 							<div className="col-lg-4 col-sm-6">
 								<a
 									className="portfolio-box"
-									href="../images/portfolio/fullsize/cable.jpg"
-									onClick={this.handlePortfolioClick.bind(this, 3)}
+									href="../images/portfolio/fullsize/5.jpg"
+									onClick={this.handlePortfolioClick.bind(this, 2)}
 								>
 									<Img
 										fluid={
-											this.props.data.images.edges[3].node.childImageSharp.fluid
+											this.props.data.images.edges[2].node.childImageSharp.fluid
 										}
 									/>
 									<div className="portfolio-box-caption p-3">
@@ -229,11 +235,11 @@ export default class IndexPage extends React.Component {
 						<div className="text-center text-bold text-white">Join us on Social Media!
 							<div className="text-center p-3">
 								<a className="btn btn-dark btn-social mx-2" href="https://www.facebook.com/rhinosEI" target="_blank"
-									rel="noreferrer" aria-label="Facebook"><i class="fab fa-facebook-f"></i> Facebook</a>
+									rel="noreferrer" aria-label="Facebook"><i className="fab fa-facebook-f"></i> Facebook</a>
 								<a className="btn btn-dark btn-social mx-2" href="https://www.instagram.com/everyday_iron"
-									target="_blank" rel="noreferrer" aria-label="Instagram"><i class="fab fa-instagram"></i> Instagram</a>
+									target="_blank" rel="noreferrer" aria-label="Instagram"><i className="fab fa-instagram"></i> Instagram</a>
 								<a className="btn btn-dark btn-social mx-2" href="https://goo.gl/maps/KDzH3bjZMYFmi7HN9"
-									target="_blank" rel="noreferrer" aria-label="Maps"><i class="fas fa-map-marker-alt"></i> Maps</a>
+									target="_blank" rel="noreferrer" aria-label="Maps"><i className="fas fa-map-marker-alt"></i> Maps</a>
 							</div>
 						</div>
 					</div>
