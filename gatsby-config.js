@@ -57,9 +57,9 @@ module.exports = {
       options: {
         name: `Everyday Iron Workout Warehouse`,
         short_name: `Everyday Iron`,
-        start_url: `./public/index.html`,
-        background_color: `#663399`,
-        theme_color: `#663399`,
+        start_url: `/`,
+        background_color: `#f7f0eb`,
+        theme_color: `#a2466c`,
         display: `minimal-ui`,
         icon: `src/images/favicon.jpg`,
         icon_options: {
