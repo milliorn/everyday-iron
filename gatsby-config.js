@@ -59,7 +59,7 @@ module.exports = {
         short_name: `Everyday Iron`,
         start_url: `/`,
         background_color: `#f7f0eb`,
-        theme_color: `#a2466c`,
+        theme_color: `#400000`,
         display: `minimal-ui`,
         icon: `src/images/favicon.jpg`,
         icon_options: {
