@@ -49,7 +49,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-canonical-urls`,
       options: {
-        siteUrl: `https://hungry-shannon-6357a0.netlify.app`,
+        siteUrl: `https://everyday-iron.netlify.app`,
       },
     },
     {
@@ -68,9 +68,9 @@ module.exports = {
           purpose: `any maskable`,
         },
       },
-    },
+    }
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
-    `gatsby-plugin-offline`
+    //`gatsby-plugin-offline`
   ]
 }
