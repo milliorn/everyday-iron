@@ -49,7 +49,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-canonical-urls`,
       options: {
-        siteUrl: `https://everyday-iron.netlify.app`,
+        siteUrl: `https://hungry-shannon-6357a0.netlify.app`,
       },
     },
     {
