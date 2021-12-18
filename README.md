@@ -5,4 +5,5 @@
 [![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://github.com/milliorn/Everyday-Iron/graphs/commit-activity)
 ![Mark stale issues and pull requests](https://github.com/milliorn/Everyday-Iron/workflows/Mark%20stale%20issues%20and%20pull%20requests/badge.svg)
 [![CodeQL](https://github.com/milliorn/Everyday-Iron/actions/workflows/codeql-analysis.yml/badge.svg)](https://github.com/milliorn/Everyday-Iron/actions/workflows/codeql-analysis.yml)
+[![OSSAR](https://github.com/milliorn/Everyday-Iron/actions/workflows/ossar-analysis.yml/badge.svg)](https://github.com/milliorn/Everyday-Iron/actions/workflows/ossar-analysis.yml)
 ![Lighthouse 100 Score](https://github.com/milliorn/Everyday-Iron/blob/master/src/images/lighthouse.png)
