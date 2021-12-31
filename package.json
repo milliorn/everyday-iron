@@ -27,7 +27,7 @@
     "react": "16.14.0",
     "react-bootstrap": "2.1.0",
     "react-dom": "16.14.0",
-    "react-helmet": "5.2.1",
+    "react-helmet": "6.1.0",
     "react-scrollspy": "3.4.3",
     "sass": "1.45.2"
   },
