@@ -4,5 +4,6 @@
 [![Website shields.io](https://img.shields.io/website-up-down-green-red/http/shields.io.svg)](https://everyday-iron.netlify.app/)
 [![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://github.com/milliorn/Everyday-Iron/graphs/commit-activity)
 [![CodeQL](https://github.com/milliorn/Everyday-Iron/actions/workflows/codeql-analysis.yml/badge.svg)](https://github.com/milliorn/Everyday-Iron/actions/workflows/codeql-analysis.yml)
+[![Lint Code Base](https://github.com/milliorn/Everyday-Iron/actions/workflows/super-linter.yml/badge.svg)](https://github.com/milliorn/Everyday-Iron/actions/workflows/super-linter.yml)
 [![OSSAR](https://github.com/milliorn/Everyday-Iron/actions/workflows/ossar-analysis.yml/badge.svg)](https://github.com/milliorn/Everyday-Iron/actions/workflows/ossar-analysis.yml)
 ![Lighthouse 100 Score](https://github.com/milliorn/Everyday-Iron/blob/master/src/images/lighthouse.png)
