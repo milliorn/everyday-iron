@@ -20,7 +20,7 @@
     "gatsby-plugin-sharp": "2.14.4",
     "gatsby-plugin-web-font-loader": "1.0.4",
     "gatsby-source-filesystem": "2.11.1",
-    "gatsby-transformer-sharp": "2.12.1",
+    "gatsby-transformer-sharp": "4.5.0",
     "preact": "10.6.4",
     "preact-render-to-string": "5.1.19",
     "prop-types": "15.8.1",
