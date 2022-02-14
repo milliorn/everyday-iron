@@ -21,12 +21,9 @@ module.exports = {
     {
       resolve: `gatsby-plugin-google-fonts`,
       options: {
-        fonts: [
-          'Merriweather',
-          `Merriweather Sans`,
-        ],
-        display: 'swap'
-      }
+        fonts: ["Merriweather", `Merriweather Sans`],
+        display: "swap",
+      },
     },
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-preact`,
@@ -68,9 +65,9 @@ module.exports = {
           purpose: `any maskable`,
         },
       },
-    }
+    },
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
     //`gatsby-plugin-offline`
-  ]
+  ],
 }

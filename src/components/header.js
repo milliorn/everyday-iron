@@ -25,7 +25,7 @@ export default class Header extends React.Component {
               onClick={Scroller.handleAnchorScroll}
             >
               Everyday Iron Workout Warehouse
-						</a>
+            </a>
             <Navbar.Toggle aria-controls="navbarResponsive" />
             <Navbar.Collapse id="navbarResponsive">
               <Nav className="navbar-nav ml-auto my-2 my-lg-0">
@@ -43,7 +43,7 @@ export default class Header extends React.Component {
                       onClick={Scroller.handleAnchorScroll}
                     >
                       Services
-										</Nav.Link>
+                    </Nav.Link>
                   </li>
                   <li className="nav-item">
                     <Nav.Link
@@ -52,7 +52,7 @@ export default class Header extends React.Component {
                       onClick={Scroller.handleAnchorScroll}
                     >
                       Gallery
-										</Nav.Link>
+                    </Nav.Link>
                   </li>
                   <li className="nav-item">
                     <Nav.Link
@@ -61,7 +61,7 @@ export default class Header extends React.Component {
                       onClick={Scroller.handleAnchorScroll}
                     >
                       Contact
-										</Nav.Link>
+                    </Nav.Link>
                   </li>
                 </Scrollspy>
               </Nav>
@@ -71,28 +71,27 @@ export default class Header extends React.Component {
         <header className="masthead">
           <div className="container h-100">
             <div className="row h-100 align-items-center justify-content-center text-center">
-              <div className="col-lg-10 align-self-end">
+              <div className="col-lg-6 align-self-end">
                 <h1 className="text-uppercase text-white font-weight-bold">
                   RHINOS ATHLETIC PERFORMANCE
-								</h1>
+                </h1>
                 <hr className="divider my-4" />
               </div>
               <div className="col-lg-8 align-self-baseline">
                 <p className="text-bold text-white mb-5">
-                  Personal training? Powerlifting coach?
-                  Like minded monsters to train with?
-                  You’ll find them all here!
-                  Changing your mind set through fitness, improving yourself everyday!
-                  Small or big,
-                  far or near we’re all about making a difference first in ourselves then in our brothers and sisters.
-								</p>
+                  Personal training? Powerlifting coach? Like minded monsters to
+                  train with? You’ll find them all here! Changing your mind set
+                  through fitness, improving yourself everyday! Small or big,
+                  far or near we’re all about making a difference first in
+                  ourselves then in our brothers and sisters.
+                </p>
                 <a
                   className="btn btn-primary btn-xl js-scroll-trigger"
                   href="#contact"
                   onClick={Scroller.handleAnchorScroll}
                 >
                   Learn More
-								</a>
+                </a>
               </div>
             </div>
           </div>
