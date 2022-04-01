@@ -54,8 +54,8 @@ function App() {
           journey with us? Give us a call, send an email or find us on social
           media!
         </p>
-        <button className="absolute px-3 py-1 text-xs text-green-50 bg-green-900 rounded-full cursor-pointer drop-shadow-2xl top-3/4 left-1/2 ">
-          <a href={localUrl}>Learn More</a>
+        <button className="absolute px-3 py-1 text-xs bg-green-900 rounded-full cursor-pointer sm:text-base lg:text-lg xl:text-xl text-green-50 drop-shadow-2xl top-3/4 left-1/2 ">
+          <a href={localUrl}>Registration &amp; Forms</a>
         </button>
       </div>
       <div className="w-11/12 h-px mx-auto my-10 bg-green-900"></div>
@@ -68,7 +68,7 @@ function App() {
               type="button"
               target="_blank"
               rel="noreferrer"
-              className="text-3xl mx-1 sm:mx-2 hover:text-green-900"
+              className="mx-1 text-3xl sm:mx-2 hover:text-green-900"
               alt="guru"
             >
               <CgGym />
@@ -78,7 +78,7 @@ function App() {
               type="button"
               target="_blank"
               rel="noreferrer"
-              className="text-3xl mx-1 sm:mx-2 hover:text-green-900"
+              className="mx-1 text-3xl sm:mx-2 hover:text-green-900"
             >
               <BsFacebook />
             </a>
@@ -88,7 +88,7 @@ function App() {
               type="button"
               target="_blank"
               rel="noreferrer"
-              className="text-3xl mx-1 sm:mx-2 hover:text-green-900"
+              className="mx-1 text-3xl sm:mx-2 hover:text-green-900"
             >
               <BsInstagram />
             </a>
@@ -98,7 +98,7 @@ function App() {
               type="button"
               target="_blank"
               rel="noreferrer"
-              className="text-3xl mx-1 sm:mx-2 hover:text-green-900"
+              className="mx-1 text-3xl sm:mx-2 hover:text-green-900"
             >
               <SiGooglemaps />
             </a>
@@ -108,7 +108,7 @@ function App() {
               type="button"
               target="_blank"
               rel="noreferrer"
-              className="text-3xl mx-1 sm:mx-2 hover:text-green-900"
+              className="mx-1 text-3xl sm:mx-2 hover:text-green-900"
             >
               <BsFillTelephoneFill />
             </a>
@@ -118,7 +118,7 @@ function App() {
               type="button"
               target="_blank"
               rel="noreferrer"
-              className="text-3xl mx-1 sm:mx-2 hover:text-green-900"
+              className="mx-1 text-3xl sm:mx-2 hover:text-green-900"
             >
               <AiOutlineMail />
             </a>
@@ -128,14 +128,14 @@ function App() {
               type="button"
               target="_blank"
               rel="noreferrer"
-              className="text-3xl mx-1 sm:mx-2 hover:text-green-900"
+              className="mx-1 text-3xl sm:mx-2 hover:text-green-900"
             >
               <FaWpforms />
             </a>
           </div>
         </div>
 
-        <div className="p-4 text-center text-green-50 text-sm">
+        <div className="p-4 text-sm text-center text-green-50">
           <a
             className="hover:text-green-900"
             href={githubUrl}
