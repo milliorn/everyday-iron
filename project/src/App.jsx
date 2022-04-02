@@ -67,7 +67,7 @@ function App() {
         </p>
         <button
           onClick={jumpToFooter}
-          className="absolute px-3 py-1 text-xs capitalize bg-green-900 rounded-full cursor-pointer sm:text-base lg:text-lg xl:text-xl text-green-50 drop-shadow-2xl top-3/4 left-1/2 "
+          className="absolute px-3 py-1 text-xs capitalize bg-green-900 rounded-full cursor-pointer sm:text-base lg:text-lg xl:text-2xl text-green-50 drop-shadow-2xl top-3/4 left-1/2 "
         >
           <span>Learn more</span>
         </button>
@@ -88,7 +88,7 @@ function App() {
           className="relative w-screen max-w-screen-sm p-8 mx-auto my-4 h-100 brightness-105"
         />
 
-        <button className="absolute flex px-3 py-1 mx-auto text-center bg-green-500 rounded-full cursor-pointer top-4/4 left-2/4 drop-shadow-2xl">
+        <button className="absolute flex px-3 py-1 mx-auto text-center bg-green-900 rounded-full cursor-pointer top-4/4 left-2/4 drop-shadow-2xl">
           <a
             href={jotform}
             alt="registration"
@@ -101,7 +101,7 @@ function App() {
         </button>
       </article>
 
-      <section className="w-11/12 h-px mx-auto my-12 bg-green-900"></section>
+      <section className="w-11/12 h-px mx-auto my-16 bg-green-900"></section>
 
       <footer className="table mx-auto my-0 text-center text-green-50 ">
         <div className="container px-6 pt-4">
