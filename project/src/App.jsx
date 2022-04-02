@@ -1,25 +1,35 @@
-import React from "react";
+import React, { useRef } from "react";
 import "./App.css";
 import HeroImage from "./images/hero.jpg";
 import SoldierImage from "./images/soldier.jpg";
+import Apf from "./images/apf.jpg";
+
 import {
   BsFacebook,
   BsInstagram,
   BsFillTelephoneFill,
   BsFillArrowDownCircleFill,
 } from "react-icons/bs";
-import { SiGooglemaps } from "react-icons/si";
+import { SiGooglemaps, SiCashapp } from "react-icons/si";
 import { AiOutlineMail } from "react-icons/ai";
-import { CgGym } from "react-icons/cg";
-import { FaWpforms } from "react-icons/fa";
 
 function App() {
-  const localUrl =
-    "https://www.pluralsight.com/guides/how-to-render-%22a%22-with-optional-href-in-react";
+  const soldierImage = useRef();
+  const learnMoreButton = useRef();
+
+  function jumpToSoldier() {
+    soldierImage.current.scrollIntoView({ behavior: "smooth" });
+  }
+
+  function jumpToFooter() {
+    learnMoreButton.current.scrollIntoView({ behavior: "smooth" });
+  }
+
+  const jotform = "https://form.jotform.com/220908419051149";
 
   const facebookUrl = "https://www.facebook.com/rhinosEI";
   const instagramUrl = "https://www.instagram.com/everyday_iron/";
-  const gyminsightUrl = "https://guru.gyminsight.com/join/douN8BHlzer9cdt";
+  const cashAppUrl = "https://cash.app/$RhinoLopez";
   const googleMapsUrl = "https://goo.gl/maps/abEtXLCVTWeupqKD8";
   const currentyear = new Date().getFullYear();
   const telephone = "tel:+1-559-577-8679";
@@ -34,16 +44,17 @@ function App() {
           alt=""
           className="w-screen h-100 brightness-105 "
         />
-        <button className="absolute bg-white rounded-full cursor-pointer drop-shadow-2xl top-3/4 left-1/2 animate-pulse ">
-          <a
-            className="text-3xl text-green-500 sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl"
-            href={localUrl}
-          >
+        <button
+          onClick={jumpToSoldier}
+          className="absolute bg-white rounded-full cursor-pointer drop-shadow-2xl top-3/4 left-1/2 animate-pulse "
+        >
+          <div className="text-3xl text-green-500 sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl">
             <BsFillArrowDownCircleFill />
-          </a>
+          </div>
         </button>
       </div>
-      <div className="relative w-full max-h-fit">
+
+      <div className="relative w-full max-h-fit" ref={soldierImage}>
         <img
           src={SoldierImage}
           alt=""
@@ -54,24 +65,56 @@ function App() {
           journey with us? Give us a call, send an email or find us on social
           media!
         </p>
-        <button className="absolute px-3 py-1 text-xs bg-green-900 rounded-full cursor-pointer sm:text-base lg:text-lg xl:text-xl text-green-50 drop-shadow-2xl top-3/4 left-1/2 ">
-          <a href={localUrl}>Registration &amp; Forms</a>
+        <button
+          onClick={jumpToFooter}
+          className="absolute px-3 py-1 text-xs capitalize bg-green-900 rounded-full cursor-pointer sm:text-base lg:text-lg xl:text-xl text-green-50 drop-shadow-2xl top-3/4 left-1/2 "
+        >
+          <span>Learn more</span>
         </button>
       </div>
-      <div className="w-11/12 h-px mx-auto my-10 bg-green-900"></div>
+
+      <section className="w-11/12 h-px mx-auto my-12 bg-green-900"></section>
+
+      <article>
+        <h1 className="mb-4 text-4xl text-center capitalize sm:text-5xl md:text-6xl lg:text-7xl text-green-50">
+          upcoming events
+        </h1>
+        <h2 className="mb-4 text-2xl text-center capitalize sm:text-4xl md:text-5xl lg:text-6xl text-green-50">
+          2022 APF iron wars 6
+        </h2>
+        <img
+          src={Apf}
+          alt="apf logo"
+          className="relative w-screen max-w-screen-sm p-8 mx-auto my-4 h-100 brightness-105"
+        />
+
+        <button className="absolute flex px-3 py-1 mx-auto text-center bg-green-500 rounded-full cursor-pointer top-4/4 left-2/4 drop-shadow-2xl">
+          <a
+            href={jotform}
+            alt="registration"
+            target="_blank"
+            className="text-center capitalize text-green-50 xl:text-2xl"
+            rel="noreferrer"
+          >
+            register now!
+          </a>
+        </button>
+      </article>
+
+      <section className="w-11/12 h-px mx-auto my-12 bg-green-900"></section>
 
       <footer className="table mx-auto my-0 text-center text-green-50 ">
-        <div className="container px-6 pt-6">
+        <div className="container px-6 pt-4">
           <div className="flex justify-center mb-6">
             <a
-              href={gyminsightUrl}
+              href={cashAppUrl}
               type="button"
               target="_blank"
               rel="noreferrer"
               className="mx-1 text-3xl sm:mx-2 hover:text-green-900"
-              alt="guru"
+              alt="CashApp"
             >
-              <CgGym />
+              <SiCashapp />
             </a>
             <a
               href={facebookUrl}
@@ -79,6 +122,7 @@ function App() {
               target="_blank"
               rel="noreferrer"
               className="mx-1 text-3xl sm:mx-2 hover:text-green-900"
+              alt="FaceBook"
             >
               <BsFacebook />
             </a>
@@ -89,6 +133,7 @@ function App() {
               target="_blank"
               rel="noreferrer"
               className="mx-1 text-3xl sm:mx-2 hover:text-green-900"
+              alt="Instagram"
             >
               <BsInstagram />
             </a>
@@ -99,6 +144,7 @@ function App() {
               target="_blank"
               rel="noreferrer"
               className="mx-1 text-3xl sm:mx-2 hover:text-green-900"
+              alt="Google Maps"
             >
               <SiGooglemaps />
             </a>
@@ -109,6 +155,7 @@ function App() {
               target="_blank"
               rel="noreferrer"
               className="mx-1 text-3xl sm:mx-2 hover:text-green-900"
+              alt="Call"
             >
               <BsFillTelephoneFill />
             </a>
@@ -119,23 +166,17 @@ function App() {
               target="_blank"
               rel="noreferrer"
               className="mx-1 text-3xl sm:mx-2 hover:text-green-900"
+              alt="Email"
             >
               <AiOutlineMail />
-            </a>
-
-            <a
-              href={email}
-              type="button"
-              target="_blank"
-              rel="noreferrer"
-              className="mx-1 text-3xl sm:mx-2 hover:text-green-900"
-            >
-              <FaWpforms />
             </a>
           </div>
         </div>
 
-        <div className="p-4 text-sm text-center text-green-50">
+        <div
+          className="p-4 text-sm text-center text-green-50"
+          ref={learnMoreButton}
+        >
           <a
             className="hover:text-green-900"
             href={githubUrl}
