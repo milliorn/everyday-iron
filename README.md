@@ -13,3 +13,7 @@ Source code for Everyday Iron Workout Warehouse website done in React using Tail
 https://imagecolorpicker.com/en
 
 https://find-nearest-tailwind-colour.netlify.app/
+
+## Preview
+
+![website](./preview.png)
