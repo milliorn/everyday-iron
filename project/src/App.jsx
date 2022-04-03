@@ -6,11 +6,11 @@ import "./App.css";
 import { Hero } from "./components/Hero";
 import Apf from "./images/apf.jpg";
 import HeroImage from "./images/hero.jpg";
-import SoldierImage from "./images/soldier.jpg";
 import { ScrollUp } from "./components/ScrollUp";
+import { About } from "./components/About";
 
 function App() {
-  const soldierImage = useRef();
+  const aboutImage = useRef();
   const learnMoreButton = useRef();
 
   const [isVisible, setIsVisible] = useState(false);
@@ -40,8 +40,8 @@ function App() {
 
   const classNames = (...classes) => classes.filter(Boolean).join(" ");
 
-  function jumpToSoldier() {
-    soldierImage.current.scrollIntoView({ behavior: "smooth" });
+  function jumpToAbout() {
+    aboutImage.current.scrollIntoView({ behavior: "smooth" });
   }
 
   function jumpToFooter() {
@@ -62,31 +62,22 @@ function App() {
   return (
     <div className="mx-auto bg-black 2xl:container">
       <ScrollUp
+        classNames={classNames}
         isVisible={isVisible}
         scrollToTop={scrollToTop}
-        classNames={classNames}
       />
 
-      <Hero img={HeroImage} alt="hero-image" onClick={jumpToSoldier} />
+      <Hero img={HeroImage} alt="hero-image" onClick={jumpToAbout} />
 
-      <div className="relative w-full max-h-fit" ref={soldierImage}>
-        <img
-          src={SoldierImage}
-          alt=""
-          className="w-screen h-100 brightness-105 "
-        />
-        <p className="absolute mx-auto my-0 text-sm font-semibold text-center text-green-50 backdrop-blur-sm drop-shadow-2xl sm:text-lg md:text-xl top-2/4 left-1/2">
-          Owned and Operated by U.S. ARMY Veteran. Ready to start your fitness
-          journey with us? Give us a call, send an email or find us on social
-          media!
-        </p>
-        <button
-          onClick={jumpToFooter}
-          className="absolute px-3 py-1 text-xs capitalize bg-green-900 rounded-full cursor-pointer sm:text-base lg:text-lg xl:text-2xl text-green-50 drop-shadow-2xl top-3/4 left-1/2 "
-        >
-          <span>Learn more</span>
-        </button>
-      </div>
+      <About
+        aboutImage={aboutImage}
+        alt="about-section"
+        onClick={jumpToFooter}
+        paragraph="Owned and Operated by U.S. ARMY Veteran. Ready to start your fitness
+        journey with us? Give us a call, send an email or find us on social
+        media!"
+        span="learn more"
+      />
 
       <section className="w-11/12 h-px mx-auto my-12 bg-green-900"></section>
 
