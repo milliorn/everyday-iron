@@ -3,11 +3,11 @@ import { AiOutlineMail } from "react-icons/ai";
 import { BsFacebook, BsFillTelephoneFill, BsInstagram } from "react-icons/bs";
 import { SiCashapp, SiGooglemaps } from "react-icons/si";
 import "./App.css";
+import { About } from "./components/About";
 import { Hero } from "./components/Hero";
+import { ScrollUp } from "./components/ScrollUp";
 import Apf from "./images/apf.jpg";
 import HeroImage from "./images/hero.jpg";
-import { ScrollUp } from "./components/ScrollUp";
-import { About } from "./components/About";
 
 function App() {
   const aboutImage = useRef();
