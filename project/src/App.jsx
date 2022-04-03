@@ -2,13 +2,13 @@ import { useEffect, useRef, useState } from "react";
 import { AiOutlineMail } from "react-icons/ai";
 import {
   BsFacebook,
-  BsFillArrowDownCircleFill,
   BsFillArrowUpCircleFill,
   BsFillTelephoneFill,
   BsInstagram,
 } from "react-icons/bs";
 import { SiCashapp, SiGooglemaps } from "react-icons/si";
 import "./App.css";
+import { Hero } from "./components/Hero";
 import Apf from "./images/apf.jpg";
 import HeroImage from "./images/hero.jpg";
 import SoldierImage from "./images/soldier.jpg";
@@ -81,21 +81,7 @@ function App() {
         </button>
       </div>
 
-      <div className="relative w-full max-h-fit">
-        <img
-          src={HeroImage}
-          alt=""
-          className="w-screen h-100 brightness-105 "
-        />
-        <button
-          onClick={jumpToSoldier}
-          className="absolute bg-white rounded-full cursor-pointer drop-shadow-2xl top-3/4 left-1/2 animate-pulse "
-        >
-          <div className="text-3xl text-green-500 sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl">
-            <BsFillArrowDownCircleFill />
-          </div>
-        </button>
-      </div>
+      <Hero img={HeroImage} alt="hero-image" onClick={jumpToSoldier} />
 
       <div className="relative w-full max-h-fit" ref={soldierImage}>
         <img
