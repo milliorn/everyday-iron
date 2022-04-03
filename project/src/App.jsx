@@ -78,26 +78,26 @@ function App() {
       <Divider />
 
       <Events
-        jotform={jotform}
+        alt="apf logo"
         h1="upcoming events"
         h2="2022 APF iron wars 6"
         img={Apf}
-        alt="apf logo"
+        jotform={jotform}
       ></Events>
 
       <Divider />
 
       <Footer
-        learnMoreButton={learnMoreButton}
-        facebookUrl={facebookUrl}
-        instagramUrl={instagramUrl}
         cashAppUrl={cashAppUrl}
-        googleMapsUrl={googleMapsUrl}
         currentyear={currentyear}
-        telephone={telephone}
         email={email}
+        facebookUrl={facebookUrl}
         githubUrl={githubUrl}
+        googleMapsUrl={googleMapsUrl}
+        instagramUrl={instagramUrl}
+        learnMoreButton={learnMoreButton}
         owner="Everyday Iron Workout Warehouse"
+        telephone={telephone}
       ></Footer>
     </div>
   );
