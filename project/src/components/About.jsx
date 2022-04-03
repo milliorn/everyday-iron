@@ -2,7 +2,7 @@ import SoldierImage from "../images/soldier.jpg";
 
 export function About(props) {
   return (
-    <div className="relative w-full max-h-fit" ref={props.aboutImage}>
+    <section className="relative w-full max-h-fit" ref={props.aboutImage}>
       <img
         src={SoldierImage}
         alt={props.alt}
@@ -17,6 +17,6 @@ export function About(props) {
       >
         <span>{props.span}</span>
       </button>
-    </div>
+    </section>
   );
 }
