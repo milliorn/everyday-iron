@@ -8,6 +8,7 @@ import { Hero } from "./components/Hero";
 import { ScrollUp } from "./components/ScrollUp";
 import Apf from "./images/apf.jpg";
 import HeroImage from "./images/hero.jpg";
+import SoldierImage from "./images/soldier.jpg";
 
 function App() {
   const aboutImage = useRef();
@@ -45,15 +46,9 @@ function App() {
   const jumpToFooter = () =>
     learnMoreButton.current.scrollIntoView({ behavior: "smooth" });
 
-  const cashAppUrl = "https://cash.app/$RhinoLopez";
   const currentyear = new Date().getFullYear();
-  const email = "mailto:everydayiron8489@gmail.com";
-  const facebookUrl = "https://www.facebook.com/rhinosEI";
-  const githubUrl = "https://github.com/milliorn/Everyday-Iron";
-  const googleMapsUrl = "https://goo.gl/maps/abEtXLCVTWeupqKD8";
-  const instagramUrl = "https://www.instagram.com/everyday_iron/";
   const jotform = "https://form.jotform.com/220908419051149";
-  const telephone = "tel:+1-559-577-8679";
+  const githubUrl = "https://github.com/milliorn/Everyday-Iron";
 
   return (
     <div className="mx-auto bg-black 2xl:container">
@@ -66,6 +61,7 @@ function App() {
       <Hero img={HeroImage} alt="hero-image" onClick={jumpToAbout} />
 
       <About
+        src={SoldierImage}
         aboutImage={aboutImage}
         alt="about-section"
         onClick={jumpToFooter}
@@ -78,26 +74,20 @@ function App() {
       <Divider />
 
       <Events
-        alt="apf logo"
+        jotform={jotform}
         h1="upcoming events"
         h2="2022 APF iron wars 6"
         img={Apf}
-        jotform={jotform}
+        alt="apf logo"
       ></Events>
 
       <Divider />
 
       <Footer
-        cashAppUrl={cashAppUrl}
-        currentyear={currentyear}
-        email={email}
-        facebookUrl={facebookUrl}
-        githubUrl={githubUrl}
-        googleMapsUrl={googleMapsUrl}
-        instagramUrl={instagramUrl}
         learnMoreButton={learnMoreButton}
+        currentyear={currentyear}
         owner="Everyday Iron Workout Warehouse"
-        telephone={telephone}
+        githubUrl={githubUrl}
       ></Footer>
     </div>
   );
