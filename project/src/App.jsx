@@ -1,5 +1,4 @@
 import { useEffect, useRef, useState } from "react";
-import "./App.css";
 import { About } from "./components/About";
 import { Divider } from "./components/Divider";
 import { Events } from "./components/Events";
@@ -9,6 +8,7 @@ import { ScrollUp } from "./components/ScrollUp";
 import Apf from "./images/apf.jpg";
 import HeroImage from "./images/hero.jpg";
 import SoldierImage from "./images/soldier.jpg";
+import "./styles/App.css";
 
 function App() {
   const aboutImage = useRef();
