@@ -1,10 +1,9 @@
-import SoldierImage from "../images/soldier.jpg";
 
 export function About(props) {
   return (
     <section className="relative w-full max-h-fit" ref={props.aboutImage}>
       <img
-        src={SoldierImage}
+        src={props.src}
         alt={props.alt}
         className="w-screen h-100 brightness-105 "
       />

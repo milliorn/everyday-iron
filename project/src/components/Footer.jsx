@@ -1,78 +1,24 @@
-import { AiOutlineMail } from "react-icons/ai";
-import { BsFacebook, BsFillTelephoneFill, BsInstagram } from "react-icons/bs";
-import { SiCashapp, SiGooglemaps } from "react-icons/si";
+import { data } from "../data";
 
 export function Footer(props) {
+  const social = data.map((e, i) => (
+    <a
+      key={i}
+      href={e.href}
+      type="button"
+      target="_blank"
+      rel="noreferrer"
+      className="mx-1 text-3xl sm:mx-2 hover:text-green-900"
+      alt={e.alt}
+    >
+      {e.icon}
+    </a>
+  ));
+
   return (
     <footer className="table mx-auto my-0 text-center text-green-50 ">
       <div className="container px-6 pt-4">
-        <div className="flex justify-center mb-6">
-          <a
-            href={props.cashAppUrl}
-            type="button"
-            target="_blank"
-            rel="noreferrer"
-            className="mx-1 text-3xl sm:mx-2 hover:text-green-900"
-            alt="CashApp"
-          >
-            <SiCashapp />
-          </a>
-
-          <a
-            href={props.facebookUrl}
-            type="button"
-            target="_blank"
-            rel="noreferrer"
-            className="mx-1 text-3xl sm:mx-2 hover:text-green-900"
-            alt="FaceBook"
-          >
-            <BsFacebook />
-          </a>
-
-          <a
-            href={props.instagramUrl}
-            type="button"
-            target="_blank"
-            rel="noreferrer"
-            className="mx-1 text-3xl sm:mx-2 hover:text-green-900"
-            alt="Instagram"
-          >
-            <BsInstagram />
-          </a>
-
-          <a
-            href={props.googleMapsUrl}
-            type="button"
-            target="_blank"
-            rel="noreferrer"
-            className="mx-1 text-3xl sm:mx-2 hover:text-green-900"
-            alt="Google Maps"
-          >
-            <SiGooglemaps />
-          </a>
-
-          <a
-            href={props.telephone}
-            type="button"
-            target="_blank"
-            rel="noreferrer"
-            className="mx-1 text-3xl sm:mx-2 hover:text-green-900"
-            alt="Call"
-          >
-            <BsFillTelephoneFill />
-          </a>
-
-          <a
-            href={props.email}
-            type="button"
-            target="_blank"
-            rel="noreferrer"
-            className="mx-1 text-3xl sm:mx-2 hover:text-green-900"
-            alt="Email"
-          >
-            <AiOutlineMail />
-          </a>
-        </div>
+        <div className="flex justify-center mb-6">{social}</div>
       </div>
 
       <div
@@ -80,7 +26,7 @@ export function Footer(props) {
         ref={props.learnMoreButton}
       >
         <a
-          className="hover:text-green-900"
+          className="hover:text-green-900 cursor-pointer"
           href={props.githubUrl}
           target="_blank"
           rel="noreferrer"
