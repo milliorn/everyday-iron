@@ -47,7 +47,7 @@ function App() {
     learnMoreButton.current.scrollIntoView({ behavior: "smooth" });
 
   const currentyear = new Date().getFullYear();
-  const jotform = "https://form.jotform.com/220908419051149";
+  const jotform = "https://form.jotform.com/220947858287069";
   const githubUrl = "https://github.com/milliorn/Everyday-Iron";
 
   return (
