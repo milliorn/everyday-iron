@@ -1,6 +1,5 @@
 {
   "name": "everyday-iron",
-  "homepage": "http://milliorn.github.io/Everyday-Iron",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
