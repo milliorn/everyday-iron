@@ -8,8 +8,6 @@
 # testing
 /coverage
 
-# production
-/build
 
 # misc
 .DS_Store
@@ -24,3 +22,5 @@ yarn-error.log*
 
 # custom - milliorn
 .private
+# Local Netlify folder
+.netlify

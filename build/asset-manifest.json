@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/Everyday-Iron/static/css/main.ef6381df.css",
+    "main.js": "/Everyday-Iron/static/js/main.6e5aaeea.js",
+    "static/media/soldier.jpg": "/Everyday-Iron/static/media/soldier.e9dcb773ce200fa6f849.jpg",
+    "static/media/hero.jpg": "/Everyday-Iron/static/media/hero.e4bc21e5890ba019a93c.jpg",
+    "static/media/apf.jpg": "/Everyday-Iron/static/media/apf.008481c4f9e5267ef0b3.jpg",
+    "index.html": "/Everyday-Iron/index.html",
+    "main.ef6381df.css.map": "/Everyday-Iron/static/css/main.ef6381df.css.map",
+    "main.6e5aaeea.js.map": "/Everyday-Iron/static/js/main.6e5aaeea.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ef6381df.css",
+    "static/js/main.6e5aaeea.js"
+  ]
+}
