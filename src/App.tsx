@@ -13,7 +13,7 @@ export default function App(): JSX.Element {
             <button
               className="cursor-pointer text-xl leading-none px-3 py-1 border border-solid border-transparent rounded bg-transparent block lg:hidden outline-none focus:outline-none"
               type="button"
-              onclick="toggleNavbar('example-collapse-navbar')"
+              /**onclick */
             >
               <i className="text-white fas fa-bars"></i>
             </button>
@@ -62,13 +62,14 @@ export default function App(): JSX.Element {
         {/** <!-- Hero --> */}
         <div
           className="relative pt-16 pb-32 flex content-center items-center justify-center"
-          style="min-height: 95vh"
+          style={{ minHeight: "95vh" }}
         >
           <div
             className="absolute top-0 w-full h-full bg-top bg-cover"
-            style="
-            background-image: url('https://images.unsplash.com/photo-1526506118085-60ce8714f8c5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2134&q=80');
-          "
+            style={{
+              backgroundImage:
+                "url('https://images.unsplash.com/photo-1526506118085-60ce8714f8c5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2134&q=80')",
+            }}
           >
             <span
               id="blackOverlay"
@@ -88,7 +89,7 @@ export default function App(): JSX.Element {
                     Download our complete brochure to get started today!
                   </p>
                   <a
-                    href="#"
+                    href="/"
                     className="bg-transparent hover:bg-orange-500 text-orange-500 font-semibold hover:text-white p-4 border border-orange-500 hover:border-transparent rounded inline-block mt-5 cursor-pointer"
                   >
                     Download Brochure
@@ -99,7 +100,7 @@ export default function App(): JSX.Element {
           </div>
           <div
             className="top-auto bottom-0 left-0 right-0 w-full absolute pointer-events-none overflow-hidden"
-            style="height: 70px; transform: translateZ(0px)"
+            style={{ height: "70px", transform: `translateZ(0px)` }}
           >
             <svg
               className="absolute bottom-0 overflow-hidden"
@@ -217,7 +218,7 @@ export default function App(): JSX.Element {
                     alt="..."
                     src="https://images.unsplash.com/photo-1597347343908-2937e7dcc560?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80"
                     className="shadow-lg rounded max-w-full mx-auto"
-                    style="max-width: 250px"
+                    style={{ maxWidth: "250px" }}
                   />
                   <div className="pt-6 text-center">
                     <h5 className="text-xl font-bold">Mr Rogers</h5>
@@ -237,7 +238,7 @@ export default function App(): JSX.Element {
                     alt="..."
                     src="https://images.unsplash.com/photo-1594381898411-846e7d193883?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60"
                     className="shadow-lg rounded max-w-full mx-auto"
-                    style="max-width: 250px"
+                    style={{ maxWidth: "250px" }}
                   />
                   <div className="pt-6 text-center">
                     <h5 className="text-xl font-bold">Strawberry Shortcake</h5>
@@ -257,7 +258,7 @@ export default function App(): JSX.Element {
                     alt="..."
                     src="https://images.unsplash.com/photo-1567013127542-490d757e51fc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80"
                     className="shadow-lg rounded max-w-full mx-auto"
-                    style="max-width: 250px"
+                    style={{ maxWidth: "250px" }}
                   />
                   <div className="pt-6 text-center">
                     <h5 className="text-xl font-bold">Ronald McDonald</h5>
@@ -275,7 +276,7 @@ export default function App(): JSX.Element {
         <section className="pb-20 relative block bg-black text-white">
           <div
             className="bottom-auto top-0 left-0 right-0 w-full absolute pointer-events-none overflow-hidden -mt-20"
-            style="height: 80px; transform: translateZ(0px)"
+            style={{ height: "80px", transform: `translateZ(0px)` }}
           >
             <svg
               className="absolute bottom-0 overflow-hidden"
@@ -324,7 +325,7 @@ export default function App(): JSX.Element {
                     <div className="relative w-full mb-3 mt-8">
                       <label
                         className="block uppercase text-xs font-bold mb-2"
-                        for="full-name"
+                        htmlFor="full-name"
                       >
                         Full Name
                       </label>
@@ -332,13 +333,13 @@ export default function App(): JSX.Element {
                         type="text"
                         className="px-3 py-3 placeholder-gray-400 bg-white rounded text-sm shadow focus:outline-none focus:shadow-outline w-full"
                         placeholder="Full Name"
-                        style="transition: all 0.15s ease 0s"
+                        style={{ transition: `all 0.15s ease 0s` }}
                       />
                     </div>
                     <div className="relative w-full mb-3">
                       <label
                         className="block uppercase text-xs font-bold mb-2"
-                        for="email"
+                        htmlFor="email"
                       >
                         Email
                       </label>
@@ -346,19 +347,19 @@ export default function App(): JSX.Element {
                         type="email"
                         className="px-3 py-3 placeholder-gray-400 bg-white rounded text-sm shadow focus:outline-none focus:shadow-outline w-full"
                         placeholder="Email"
-                        style="transition: all 0.15s ease 0s"
+                        style={{ transition: `all 0.15s ease 0s` }}
                       />
                     </div>
                     <div className="relative w-full mb-3">
                       <label
                         className="block uppercase text-xs font-bold mb-2"
-                        for="message"
+                        htmlFor="message"
                       >
                         Message
                       </label>
                       <textarea
-                        rows="4"
-                        cols="80"
+                        rows={4}
+                        cols={80}
                         className="px-3 py-3 placeholder-gray-400 bg-white rounded text-sm shadow focus:outline-none focus:shadow-outline w-full"
                         placeholder="Type a message..."
                       ></textarea>
@@ -367,7 +368,7 @@ export default function App(): JSX.Element {
                       <button
                         className="bg-gray-900 text-white active:bg-gray-700 text-sm font-bold uppercase px-6 py-3 rounded shadow hover:shadow-lg outline-none focus:outline-none mr-1 mb-1"
                         type="button"
-                        style="transition: all 0.15s ease 0s"
+                        style={{ transition: `all 0.15s ease 0s` }}
                       >
                         Send Message
                       </button>
@@ -384,7 +385,7 @@ export default function App(): JSX.Element {
       <footer className="relative bg-gray-300 pt-8 pb-6">
         <div
           className="bottom-auto top-0 left-0 right-0 w-full absolute pointer-events-none overflow-hidden -mt-20"
-          style="height: 80px; transform: translateZ(0px)"
+          style={{ height: `80px`, transform: `translateZ(0px)` }}
         >
           <svg
             className="absolute bottom-0 overflow-hidden"
