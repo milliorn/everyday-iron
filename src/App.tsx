@@ -68,12 +68,12 @@ export default function App(): JSX.Element {
             className="absolute top-0 w-full h-full bg-top bg-cover"
             style={{
               backgroundImage:
-                "url('https://images.unsplash.com/photo-1526506118085-60ce8714f8c5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2134&q=80')",
+                "url('https://scontent.fsac1-1.fna.fbcdn.net/v/t39.30808-6/232907317_1100114640395492_8398989439487127883_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=a26aad&_nc_ohc=KI7pf06y-R8AX9mE3dF&_nc_ht=scontent.fsac1-1.fna&oh=00_AfBvy6SCIZxwtCHxdImkXQf0x79gb5SkX52CYROmp4Fu5A&oe=6373C3F6')",
             }}
           >
             <span
               id="blackOverlay"
-              className="w-full h-full absolute opacity-75 bg-black"
+              className="w-full h-full absolute opacity-90 bg-black"
             ></span>
           </div>
           <div className="container relative mx-auto" data-aos="fade-in">
