@@ -1,3 +1,7 @@
+import Bob from "./assets/309664365_506748041277421_8884733249368847757_n.webp";
+import Mark from "./assets/131258568_302848314385492_1215783431070905553_n.jpg";
+import Kim from "./assets/775165_107401996137699_1929697052_o.jpg";
+
 export default function App(): JSX.Element {
   return (
     <>
@@ -8,7 +12,7 @@ export default function App(): JSX.Element {
               className="text-lg font-bold leading-relaxed inline-block mr-4 py-2 whitespace-no-wrap uppercase text-white"
               href="https://www.creative-tim.com/learning-lab/tailwind-starter-kit#/presentation"
             >
-              The Power Room
+              Everday Iron Workout Warehouse
             </a>
             <button
               className="cursor-pointer text-xl leading-none px-3 py-1 border border-solid border-transparent rounded bg-transparent block lg:hidden outline-none focus:outline-none"
@@ -68,12 +72,12 @@ export default function App(): JSX.Element {
             className="absolute top-0 w-full h-full bg-top bg-cover"
             style={{
               backgroundImage:
-                "url('https://scontent.fsac1-1.fna.fbcdn.net/v/t39.30808-6/232907317_1100114640395492_8398989439487127883_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=a26aad&_nc_ohc=KI7pf06y-R8AX9mE3dF&_nc_ht=scontent.fsac1-1.fna&oh=00_AfBvy6SCIZxwtCHxdImkXQf0x79gb5SkX52CYROmp4Fu5A&oe=6373C3F6')",
+                "url('https://scontent.fsac1-2.fna.fbcdn.net/v/t39.30808-6/301132168_1336908660049421_5821234938742637666_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=a26aad&_nc_ohc=32yLPE-k3q8AX_NBXas&_nc_ht=scontent.fsac1-2.fna&oh=00_AfBw1pYTkEWr7NV8nF8Qh3ttluyL-z7c-E_2En-2eu7fwg&oe=6374FC6D')",
             }}
           >
             <span
               id="blackOverlay"
-              className="w-full h-full absolute opacity-90 bg-black"
+              className="w-full h-full absolute opacity-80 bg-black"
             ></span>
           </div>
           <div className="container relative mx-auto" data-aos="fade-in">
@@ -126,8 +130,8 @@ export default function App(): JSX.Element {
               >
                 <img
                   alt="..."
-                  className="max-w-full rounded-lg shadow-lg"
-                  src="https://images.unsplash.com/photo-1550345332-09e3ac987658?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80"
+                  className="max-w-full rounded-lg shadow-lg opacity-60"
+                  src="https://scontent.fsac1-1.fna.fbcdn.net/v/t39.30808-6/280504714_1270228856717402_4541068673034417592_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=a26aad&_nc_ohc=rrXxa-rSop8AX85Bbyk&tn=prYenuatE62SFggE&_nc_ht=scontent.fsac1-1.fna&oh=00_AfC0fXC89jQzyxyAl87kOTMLVFG3nmTC4bGoF4wW5lc2Wg&oe=6373852B"
                 />
               </div>
               <div
@@ -216,14 +220,14 @@ export default function App(): JSX.Element {
                 <div className="px-6">
                   <img
                     alt="..."
-                    src="https://images.unsplash.com/photo-1597347343908-2937e7dcc560?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80"
+                    src={Mark}
                     className="shadow-lg rounded max-w-full mx-auto"
-                    style={{ maxWidth: "250px" }}
+                    style={{ maxWidth: "240px" }}
                   />
                   <div className="pt-6 text-center">
-                    <h5 className="text-xl font-bold">Mr Rogers</h5>
+                    <h5 className="text-xl font-bold">Mark Lopez</h5>
                     <p className="mt-1 text-sm text-gray-500 uppercase font-semibold">
-                      Neighborhood Watchman
+                      Owner | Trainer | APF Director
                     </p>
                   </div>
                 </div>
@@ -236,14 +240,14 @@ export default function App(): JSX.Element {
                 <div className="px-6">
                   <img
                     alt="..."
-                    src="https://images.unsplash.com/photo-1594381898411-846e7d193883?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60"
+                    src={Bob}
                     className="shadow-lg rounded max-w-full mx-auto"
-                    style={{ maxWidth: "250px" }}
+                    style={{ maxWidth: "240px" }}
                   />
                   <div className="pt-6 text-center">
-                    <h5 className="text-xl font-bold">Strawberry Shortcake</h5>
+                    <h5 className="text-xl font-bold">Bob Packer</h5>
                     <p className="mt-1 text-sm text-gray-500 uppercase font-semibold">
-                      Cupcake Smasher
+                      Sales | Trainer | Powerlifting Hall of Fame
                     </p>
                   </div>
                 </div>
@@ -256,14 +260,14 @@ export default function App(): JSX.Element {
                 <div className="px-6">
                   <img
                     alt="..."
-                    src="https://images.unsplash.com/photo-1567013127542-490d757e51fc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80"
-                    className="shadow-lg rounded max-w-full mx-auto"
-                    style={{ maxWidth: "250px" }}
+                    src={Kim}
+                    className="shadow-lg rounded max-w-full mx-auto md:max-h-[240px]"
+                    style={{ maxWidth: "240px" }}
                   />
                   <div className="pt-6 text-center">
-                    <h5 className="text-xl font-bold">Ronald McDonald</h5>
+                    <h5 className="text-xl font-bold">Kim Packer</h5>
                     <p className="mt-1 text-sm text-gray-500 uppercase font-semibold">
-                      Double Whoopass With Cheese
+                      Trainer | Competitive Powerlifter & Bodybuilder
                     </p>
                   </div>
                 </div>
