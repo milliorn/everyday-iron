@@ -93,12 +93,9 @@ export default function App(): JSX.Element {
                 data-aos="fade-left"
               >
                 <div className="md:pr-12">
-                  <small className="text-red-600 sm:text-lg 2xl:text-2xl">
-                    About our gym
-                  </small>
-                  <h3 className="sm:text-4xl text-xl uppercase font-bold font-serif	">
+                  <h2 className="sm:text-3xl 2xl:text-4xl text-xl uppercase font-bold font-serif	text-red-600 mt-4 sm:mt-0 text-center md:text-left">
                     Rhino Performance
-                  </h3>
+                  </h2>
                   <p className="mt-4 text-lg leading-relaxed 2xl:text-3xl">
                     65 years of combined Expertise in Powerlifting, Olympic
                     Weightlifting, Strength Training, Bodybuilding and Weight
@@ -113,9 +110,9 @@ export default function App(): JSX.Element {
                           </span>
                         </div>
                         <div>
-                          <h4 className="text-xl capitalize 2xl:text-3xl">
+                          <h3 className="text-xl capitalize 2xl:text-3xl">
                             WPC approved equipment.
-                          </h4>
+                          </h3>
                         </div>
                       </div>
                     </li>
@@ -127,9 +124,9 @@ export default function App(): JSX.Element {
                           </span>
                         </div>
                         <div>
-                          <h4 className="text-xl capitalize 2xl:text-3xl">
+                          <h3 className="text-xl capitalize 2xl:text-3xl">
                             York, Texas, Ohio, Swiss Barbells.
-                          </h4>
+                          </h3>
                         </div>
                       </div>
                     </li>
@@ -141,9 +138,9 @@ export default function App(): JSX.Element {
                           </span>
                         </div>
                         <div>
-                          <h4 className="text-xl capitalize 2xl:text-3xl">
+                          <h3 className="text-xl capitalize 2xl:text-3xl">
                             Dumbbell weights including Olympic handles.
-                          </h4>
+                          </h3>
                         </div>
                       </div>
                     </li>
@@ -155,9 +152,9 @@ export default function App(): JSX.Element {
                           </span>
                         </div>
                         <div>
-                          <h4 className="text-xl capitalize 2xl:text-3xl">
+                          <h3 className="text-xl capitalize 2xl:text-3xl">
                             Isolation and Cable Machines for Bodybuilding
-                          </h4>
+                          </h3>
                         </div>
                       </div>
                     </li>
@@ -169,9 +166,9 @@ export default function App(): JSX.Element {
                           </span>
                         </div>
                         <div>
-                          <h4 className="text-xl capitalize 2xl:text-3xl">
+                          <h3 className="text-xl capitalize 2xl:text-3xl">
                             Cardio Equipment
-                          </h4>
+                          </h3>
                         </div>
                       </div>
                     </li>
@@ -211,9 +208,9 @@ export default function App(): JSX.Element {
                     style={{ maxWidth: "240px" }}
                   />
                   <div className="pt-6 text-center">
-                    <h5 className="text-xl font-bold text-red-600 2xl:text-3xl font-serif">
+                    <h3 className="text-xl font-bold text-red-600 2xl:text-3xl font-serif">
                       Mark Lopez
-                    </h5>
+                    </h3>
                     <p className="mt-1 text-sm text-gray-200 uppercase font-semibold  2xl:text-base font-serif">
                       Owner | Trainer | APF Director
                     </p>
@@ -233,9 +230,9 @@ export default function App(): JSX.Element {
                     style={{ maxWidth: "240px" }}
                   />
                   <div className="pt-6 text-center">
-                    <h5 className="text-xl font-bold text-red-600 2xl:text-3xl font-serif">
+                    <h3 className="text-xl font-bold text-red-600 2xl:text-3xl font-serif">
                       Bob Packer
-                    </h5>
+                    </h3>
                     <p className="mt-1 text-sm text-gray-200 uppercase font-semibold  2xl:text-base font-serif">
                       Sales | Trainer | Powerlifting Hall of Fame
                     </p>
@@ -255,9 +252,9 @@ export default function App(): JSX.Element {
                     style={{ maxWidth: "240px" }}
                   />
                   <div className="pt-6 text-center">
-                    <h5 className="text-xl font-bold text-red-600 2xl:text-3xl font-serif">
+                    <h3 className="text-xl font-bold text-red-600 2xl:text-3xl font-serif">
                       Kim Packer
-                    </h5>
+                    </h3>
                     <p className="mt-1 text-sm text-gray-200 uppercase font-semibold  2xl:text-base font-serif">
                       Trainer | Competitive Powerlifter & Bodybuilder
                     </p>
@@ -293,12 +290,12 @@ export default function App(): JSX.Element {
         <div className="container mx-auto px-4">
           <div className="flex flex-wrap  items-center justify-center align-center">
             <div className="w-full lg:w-6/12 px-4">
-              <h4 className="text-3xl font-semibold capitalize text-center font-serif">
+              <h3 className="text-3xl font-semibold capitalize text-center font-serif">
                 Follow us on social media!
-              </h4>
-              <h5 className="text-lg my-2 text-gray-700 text-center">
+              </h3>
+              <h4 className="text-lg my-2 text-gray-700 text-center">
                 Contact us on those platforms. Also by phone or email.
-              </h5>
+              </h4>
               <div className="mt-6 justify-center flex">
                 <a
                   className="bg-green-500 text-white shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2 p-3"
@@ -306,6 +303,7 @@ export default function App(): JSX.Element {
                   href="https://cash.app/$RhinoLopez"
                   target="_blank"
                   rel="noreferrer"
+                  aria-label="cash app"
                 >
                   <SiCashapp />
                 </a>
@@ -315,6 +313,7 @@ export default function App(): JSX.Element {
                   href="https://www.facebook.com/rhinosEI"
                   target="_blank"
                   rel="noreferrer"
+                  aria-label="facebook"
                 >
                   <BsFacebook />
                 </a>
@@ -324,6 +323,7 @@ export default function App(): JSX.Element {
                   href="https://www.instagram.com/everyday_iron/"
                   target="_blank"
                   rel="noreferrer"
+                  aria-label="instagram"
                 >
                   <BsInstagram />
                 </a>
@@ -333,6 +333,7 @@ export default function App(): JSX.Element {
                   href="https://goo.gl/maps/abEtXLCVTWeupqKD8"
                   target="_blank"
                   rel="noreferrer"
+                  aria-label="google maps"
                 >
                   <SiGooglemaps />
                 </a>
@@ -342,6 +343,7 @@ export default function App(): JSX.Element {
                   href="tel:+1-559-577-8679"
                   target="_blank"
                   rel="noreferrer"
+                  aria-label="phone number"
                 >
                   <BsFillTelephoneFill />
                 </a>
@@ -351,6 +353,7 @@ export default function App(): JSX.Element {
                   href="mailto:everydayiron8489@gmail.com"
                   target="_blank"
                   rel="noreferrer"
+                  aria-label="email"
                 >
                   <AiOutlineMail />
                 </a>
