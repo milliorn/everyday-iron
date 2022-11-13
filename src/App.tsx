@@ -189,7 +189,7 @@ export default function App(): JSX.Element {
                 <h2 className="text-4xl font-semibold uppercase text-red-600 2xl:text-5xl">
                   Meet Our Trainers
                 </h2>
-                <p className="text-xl leading-relaxed m-4 text-white 2xl:text-3xl">
+                <p className="text-xl leading-relaxed mt-4 text-white 2xl:text-3xl">
                   Our trainers are here to dedicate the time and effort that you
                   need to get in the best shape of your life!
                 </p>
@@ -199,17 +199,17 @@ export default function App(): JSX.Element {
             <div className="flex flex-wrap">
               {/** <!-- Card 1 --> */}
               <div
-                className="w-full md:w-4/12 lg:mb-0 mb-12 px-4"
+                className="w-full md:w-4/12 lg:mb-0 my-4 px-4"
                 data-aos="flip-right"
               >
-                <div className="px-6 md:relative">
+                <div className="px-6">
                   <img
                     alt="..."
                     src={Mark}
                     className="shadow-lg rounded max-w-full mx-auto"
                     style={{ maxWidth: "240px" }}
                   />
-                  <div className="pt-6 text-center md:absolute">
+                  <div className="pt-6 text-center">
                     <h5 className="text-xl font-bold text-red-600 2xl:text-3xl">
                       Mark Lopez
                     </h5>
@@ -221,17 +221,17 @@ export default function App(): JSX.Element {
               </div>
               {/** <!-- Card 2 --> */}
               <div
-                className="w-full md:w-4/12 lg:mb-0 mb-12 px-4"
+                className="w-full md:w-4/12 lg:mb-0 my-4 px-4"
                 data-aos="flip-right"
               >
-                <div className="px-6 md:relative">
+                <div className="px-6">
                   <img
                     alt="..."
                     src={Bob}
                     className="shadow-lg rounded max-w-full mx-auto"
                     style={{ maxWidth: "240px" }}
                   />
-                  <div className="pt-6 text-center md:absolute">
+                  <div className="pt-6 text-center">
                     <h5 className="text-xl font-bold text-red-600 2xl:text-3xl">
                       Bob Packer
                     </h5>
@@ -243,17 +243,17 @@ export default function App(): JSX.Element {
               </div>
               {/** <!-- Card 3 --> */}
               <div
-                className="w-full md:w-4/12 lg:mb-0 mb-12 px-4"
+                className="w-full md:w-4/12 lg:mb-0 my-4 px-4"
                 data-aos="flip-right"
               >
-                <div className="px-6 md:relative">
+                <div className="px-6">
                   <img
                     alt="..."
                     src={Kim}
                     className="shadow-lg rounded max-w-full mx-auto md:max-h-[240px]"
                     style={{ maxWidth: "240px" }}
                   />
-                  <div className="pt-6 text-center md:absolute">
+                  <div className="pt-6 text-center">
                     <h5 className="text-xl font-bold text-red-600 2xl:text-3xl">
                       Kim Packer
                     </h5>
