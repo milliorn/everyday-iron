@@ -185,13 +185,13 @@ export default function App(): JSX.Element {
         <section className="pt-20 pb-48 bg-neutral-900">
           <div className="container mx-auto px-4">
             <div className="flex flex-wrap justify-center text-center mb-24">
-              <div className="w-full lg:w-6/12 px-4">
-                <h2 className="text-4xl font-semibold uppercase text-red-600">
+              <div className="w-full px-4">
+                <h2 className="text-4xl font-semibold uppercase text-red-600 2xl:text-5xl">
                   Meet Our Trainers
                 </h2>
-                <p className="text-xl leading-relaxed m-4 text-white">
-                  Our trainers are are here to dedicate the time and effort that
-                  you need to get in the best shape of your life
+                <p className="text-xl leading-relaxed m-4 text-white 2xl:text-3xl">
+                  Our trainers are here to dedicate the time and effort that you
+                  need to get in the best shape of your life!
                 </p>
               </div>
             </div>
@@ -210,10 +210,10 @@ export default function App(): JSX.Element {
                     style={{ maxWidth: "240px" }}
                   />
                   <div className="pt-6 text-center md:absolute">
-                    <h5 className="text-xl font-bold text-red-600">
+                    <h5 className="text-xl font-bold text-red-600 2xl:text-3xl">
                       Mark Lopez
                     </h5>
-                    <p className="mt-1 text-sm text-gray-200 uppercase font-semibold">
+                    <p className="mt-1 text-sm text-gray-200 uppercase font-semibold  2xl:text-base">
                       Owner | Trainer | APF Director
                     </p>
                   </div>
@@ -232,10 +232,10 @@ export default function App(): JSX.Element {
                     style={{ maxWidth: "240px" }}
                   />
                   <div className="pt-6 text-center md:absolute">
-                    <h5 className="text-xl font-bold text-red-600">
+                    <h5 className="text-xl font-bold text-red-600 2xl:text-3xl">
                       Bob Packer
                     </h5>
-                    <p className="mt-1 text-sm text-gray-200 uppercase font-semibold">
+                    <p className="mt-1 text-sm text-gray-200 uppercase font-semibold  2xl:text-base">
                       Sales | Trainer | Powerlifting Hall of Fame
                     </p>
                   </div>
@@ -254,10 +254,10 @@ export default function App(): JSX.Element {
                     style={{ maxWidth: "240px" }}
                   />
                   <div className="pt-6 text-center md:absolute">
-                    <h5 className="text-xl font-bold text-red-600">
+                    <h5 className="text-xl font-bold text-red-600 2xl:text-3xl">
                       Kim Packer
                     </h5>
-                    <p className="mt-1 text-sm text-gray-200 uppercase font-semibold">
+                    <p className="mt-1 text-sm text-gray-200 uppercase font-semibold  2xl:text-base">
                       Trainer | Competitive Powerlifter & Bodybuilder
                     </p>
                   </div>
