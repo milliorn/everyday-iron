@@ -32,8 +32,9 @@ export default function App(): JSX.Element {
             <div className="items-center flex flex-wrap">
               <div className="w-full lg:w-6/12 px-4 ml-auto mr-auto text-center">
                 <div>
-                  <h1 className="text-red-600 font-semibold text-4xl sm:text-7xl">
-                    Everyday <span className="text-white">Iron</span>
+                  <h1 className="text-red-600 font-semibold text-4xl sm:text-7xl font-serif">
+                    <span>Everyday</span>{" "}
+                    <span className="text-white">Iron</span>
                   </h1>
                   <p className="mt-4 text-lg text-gray-300 xl:text-xl 2xl:text-3xl">
                     Welcome to The Official California American Powerlifting
@@ -95,7 +96,7 @@ export default function App(): JSX.Element {
                   <small className="text-red-600 sm:text-lg 2xl:text-2xl">
                     About our gym
                   </small>
-                  <h3 className="sm:text-4xl text-xl uppercase font-bold">
+                  <h3 className="sm:text-4xl text-xl uppercase font-bold font-serif	">
                     Rhino Performance
                   </h3>
                   <p className="mt-4 text-lg leading-relaxed 2xl:text-3xl">
@@ -186,7 +187,7 @@ export default function App(): JSX.Element {
           <div className="container mx-auto px-4">
             <div className="flex flex-wrap justify-center text-center mb-24">
               <div className="w-full px-4">
-                <h2 className="text-4xl font-semibold uppercase text-red-600 2xl:text-5xl">
+                <h2 className="text-4xl font-semibold uppercase text-red-600 2xl:text-5xl font-serif">
                   Meet Our Trainers
                 </h2>
                 <p className="text-xl leading-relaxed mt-4 text-white 2xl:text-3xl">
@@ -210,10 +211,10 @@ export default function App(): JSX.Element {
                     style={{ maxWidth: "240px" }}
                   />
                   <div className="pt-6 text-center">
-                    <h5 className="text-xl font-bold text-red-600 2xl:text-3xl">
+                    <h5 className="text-xl font-bold text-red-600 2xl:text-3xl font-serif">
                       Mark Lopez
                     </h5>
-                    <p className="mt-1 text-sm text-gray-200 uppercase font-semibold  2xl:text-base">
+                    <p className="mt-1 text-sm text-gray-200 uppercase font-semibold  2xl:text-base font-serif">
                       Owner | Trainer | APF Director
                     </p>
                   </div>
@@ -232,10 +233,10 @@ export default function App(): JSX.Element {
                     style={{ maxWidth: "240px" }}
                   />
                   <div className="pt-6 text-center">
-                    <h5 className="text-xl font-bold text-red-600 2xl:text-3xl">
+                    <h5 className="text-xl font-bold text-red-600 2xl:text-3xl font-serif">
                       Bob Packer
                     </h5>
-                    <p className="mt-1 text-sm text-gray-200 uppercase font-semibold  2xl:text-base">
+                    <p className="mt-1 text-sm text-gray-200 uppercase font-semibold  2xl:text-base font-serif">
                       Sales | Trainer | Powerlifting Hall of Fame
                     </p>
                   </div>
@@ -254,10 +255,10 @@ export default function App(): JSX.Element {
                     style={{ maxWidth: "240px" }}
                   />
                   <div className="pt-6 text-center">
-                    <h5 className="text-xl font-bold text-red-600 2xl:text-3xl">
+                    <h5 className="text-xl font-bold text-red-600 2xl:text-3xl font-serif">
                       Kim Packer
                     </h5>
-                    <p className="mt-1 text-sm text-gray-200 uppercase font-semibold  2xl:text-base">
+                    <p className="mt-1 text-sm text-gray-200 uppercase font-semibold  2xl:text-base font-serif">
                       Trainer | Competitive Powerlifter & Bodybuilder
                     </p>
                   </div>
@@ -292,7 +293,7 @@ export default function App(): JSX.Element {
         <div className="container mx-auto px-4">
           <div className="flex flex-wrap  items-center justify-center align-center">
             <div className="w-full lg:w-6/12 px-4">
-              <h4 className="text-3xl font-semibold capitalize text-center">
+              <h4 className="text-3xl font-semibold capitalize text-center font-serif">
                 Follow us on social media!
               </h4>
               <h5 className="text-lg my-2 text-gray-700 text-center">
