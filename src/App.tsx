@@ -78,7 +78,7 @@ export default function App(): JSX.Element {
           <div className="container mx-auto px-4">
             <div className="items-center flex flex-wrap">
               <div
-                className="w-full md:w-6/12 ml-auto mr-auto px-4"
+                className="w-full md:w-7/12 mx-auto px-4"
                 data-aos="fade-right"
               >
                 <img
@@ -92,11 +92,13 @@ export default function App(): JSX.Element {
                 data-aos="fade-left"
               >
                 <div className="md:pr-12">
-                  <small className="text-red-600">About our gym</small>
-                  <h3 className="text-4xl uppercase font-bold">
+                  <small className="text-red-600 sm:text-lg 2xl:text-2xl">
+                    About our gym
+                  </small>
+                  <h3 className="sm:text-4xl text-xl uppercase font-bold">
                     Rhino Performance
                   </h3>
-                  <p className="mt-4 text-lg leading-relaxed">
+                  <p className="mt-4 text-lg leading-relaxed 2xl:text-3xl">
                     65 years of combined Expertise in Powerlifting, Olympic
                     Weightlifting, Strength Training, Bodybuilding and Weight
                     Management.
@@ -110,7 +112,7 @@ export default function App(): JSX.Element {
                           </span>
                         </div>
                         <div>
-                          <h4 className="text-xl capitalize">
+                          <h4 className="text-xl capitalize 2xl:text-3xl">
                             WPC approved equipment.
                           </h4>
                         </div>
@@ -124,7 +126,7 @@ export default function App(): JSX.Element {
                           </span>
                         </div>
                         <div>
-                          <h4 className="text-xl capitalize">
+                          <h4 className="text-xl capitalize 2xl:text-3xl">
                             York, Texas, Ohio, Swiss Barbells.
                           </h4>
                         </div>
@@ -138,9 +140,8 @@ export default function App(): JSX.Element {
                           </span>
                         </div>
                         <div>
-                          <h4 className="text-xl capitalize">
-                            Full shelves of Dumbbell weights including Olympic
-                            handles.
+                          <h4 className="text-xl capitalize 2xl:text-3xl">
+                            Dumbbell weights including Olympic handles.
                           </h4>
                         </div>
                       </div>
@@ -153,7 +154,7 @@ export default function App(): JSX.Element {
                           </span>
                         </div>
                         <div>
-                          <h4 className="text-xl capitalize">
+                          <h4 className="text-xl capitalize 2xl:text-3xl">
                             Isolation and Cable Machines for Bodybuilding
                           </h4>
                         </div>
@@ -167,7 +168,7 @@ export default function App(): JSX.Element {
                           </span>
                         </div>
                         <div>
-                          <h4 className="text-xl capitalize">
+                          <h4 className="text-xl capitalize 2xl:text-3xl">
                             Cardio Equipment
                           </h4>
                         </div>
