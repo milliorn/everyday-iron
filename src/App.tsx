@@ -1,3 +1,7 @@
+import { AiOutlineMail } from "react-icons/ai";
+import { BsFacebook, BsFillTelephoneFill, BsInstagram } from "react-icons/bs";
+import { SiCashapp, SiGooglemaps } from "react-icons/si";
+
 import Mark from "./assets/131258568_302848314385492_1215783431070905553_n.jpg";
 import Bob from "./assets/309664365_506748041277421_8884733249368847757_n.webp";
 import Kim from "./assets/775165_107401996137699_1929697052_o.jpg";
@@ -34,10 +38,10 @@ export default function App(): JSX.Element {
                   <p className="mt-4 text-lg text-gray-300">
                     Welcome to The Official California American Powerlifting
                     Federation Gym. Sanctioned by World Powerlifting Congress,
-                    it’s not just a gym, it’s an environment we created for
-                    people from all walks of life. Owned and Operated by U.S.
-                    ARMY Veteran. Ready to start your fitness journey with us?
-                    Scroll down to learn more!
+                    it’s not just a gym but an environment for people of all
+                    walks of life. Owned and Operated by U.S. ARMY Veteran.
+                    Ready to start your fitness journey? Scroll down to learn
+                    more!
                   </p>
                   <a
                     href="https://worldpowerliftingcongress.com/"
@@ -285,41 +289,78 @@ export default function App(): JSX.Element {
           </svg>
         </div>
         <div className="container mx-auto px-4">
-          <div className="flex flex-wrap">
+          <div className="flex flex-wrap  items-center justify-center align-center">
             <div className="w-full lg:w-6/12 px-4">
-              <h4 className="text-3xl font-semibold">
-                Follow us on social media
+              <h4 className="text-3xl font-semibold capitalize text-center">
+                Follow us on social media!
               </h4>
-              <h5 className="text-lg mt-0 mb-2 text-gray-700">
-                Find us on any of these platforms, we respond 1-2 business days.
+              <h5 className="text-lg my-2 text-gray-700 text-center">
+                Contact us on those platforms. Also by phone or email.
               </h5>
-              <div className="mt-6">
-                <button
-                  className="bg-white text-blue-400 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2 p-3"
+              <div className="mt-6 justify-center flex">
+                <a
+                  className="bg-green-500 text-white shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2 p-3"
                   type="button"
+                  href="https://cash.app/$RhinoLopez"
+                  target="_blank"
+                  rel="noreferrer"
                 >
-                  <i className="flex fab fa-twitter text-red-600"></i>
-                </button>
-                <button
-                  className="bg-white text-blue-600 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2 p-3"
+                  <SiCashapp />
+                </a>
+                <a
+                  className="bg-blue-500 text-white shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2 p-3"
                   type="button"
+                  href="https://cash.app/$RhinoLopez"
+                  target="_blank"
+                  rel="noreferrer"
                 >
-                  <i className="flex fab fa-facebook-square text-red-600"></i>
-                </button>
-                <button
-                  className="bg-white text-pink-400 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2 p-3"
+                  <BsFacebook />
+                </a>
+                <a
+                  className="bg-fuchsia-700 text-white shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2 p-3"
                   type="button"
+                  href="https://cash.app/$RhinoLopez"
+                  target="_blank"
+                  rel="noreferrer"
                 >
-                  <i className="flex fab fa-linkedin text-red-600"></i>
-                </button>
+                  <BsInstagram />
+                </a>
+                <a
+                  className="bg-red-500 text-white shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2 p-3"
+                  type="button"
+                  href="https://cash.app/$RhinoLopez"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <SiGooglemaps />
+                </a>
+                <a
+                  className="bg-orange-400 text-white shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2 p-3"
+                  type="button"
+                  href="https://cash.app/$RhinoLopez"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <BsFillTelephoneFill />
+                </a>
+                <a
+                  className="bg-red-600 text-white shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2 p-3"
+                  type="button"
+                  href="https://cash.app/$RhinoLopez"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <AiOutlineMail />
+                </a>
               </div>
             </div>
           </div>
           <hr className="my-6 border-gray-400" />
           <div className="flex flex-wrap items-center md:justify-between justify-center">
             <div className="w-full md:w-4/12 px-4 mx-auto text-center">
-              <div className="text-sm text-gray-600 font-semibold py-1">
-                Copyright © The Power Room
+              <div className="text-sm text-gray-900 font-semibold py-1">
+                Copyright © {new Date().getFullYear()} Everyday Iron Workout
+                Warehouse Gym
               </div>
             </div>
           </div>
