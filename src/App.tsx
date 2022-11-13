@@ -32,10 +32,10 @@ export default function App(): JSX.Element {
             <div className="items-center flex flex-wrap">
               <div className="w-full lg:w-6/12 px-4 ml-auto mr-auto text-center">
                 <div>
-                  <h1 className="text-red-600 font-semibold text-5xl ">
+                  <h1 className="text-red-600 font-semibold text-4xl sm:text-7xl">
                     Everyday <span className="text-white">Iron</span>
                   </h1>
-                  <p className="mt-4 text-lg text-gray-300">
+                  <p className="mt-4 text-lg text-gray-300 xl:text-xl 2xl:text-3xl">
                     Welcome to The Official California American Powerlifting
                     Federation Gym. Sanctioned by World Powerlifting Congress,
                     it’s not just a gym but an environment for people of all
@@ -46,7 +46,7 @@ export default function App(): JSX.Element {
                   <a
                     href="https://worldpowerliftingcongress.com/"
                     target="_blank"
-                    className="bg-transparent hover:bg-red-600 text-red-600 font-semibold hover:text-white p-4 border border-red-600 hover:border-transparent rounded inline-block mt-5 cursor-pointer"
+                    className="bg-transparent hover:bg-red-600 text-red-600 font-semibold hover:text-white p-4 border border-red-600 hover:border-transparent rounded inline-block mt-5 cursor-pointer 2xl:text-2xl"
                     rel="noreferrer"
                   >
                     Go to WPC Website
