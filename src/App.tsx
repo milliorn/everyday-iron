@@ -86,6 +86,8 @@ export default function App(): JSX.Element {
                   alt="..."
                   className="max-w-full rounded-lg shadow-lg opacity-60"
                   src="https://scontent.fsac1-1.fna.fbcdn.net/v/t39.30808-6/280504714_1270228856717402_4541068673034417592_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=a26aad&_nc_ohc=rrXxa-rSop8AX85Bbyk&tn=prYenuatE62SFggE&_nc_ht=scontent.fsac1-1.fna&oh=00_AfC0fXC89jQzyxyAl87kOTMLVFG3nmTC4bGoF4wW5lc2Wg&oe=6373852B"
+                  width={1440}
+                  height={1080}
                 />
               </div>
               <div
@@ -206,6 +208,8 @@ export default function App(): JSX.Element {
                     src={Mark}
                     className="shadow-lg rounded max-w-full mx-auto"
                     style={{ maxWidth: "240px" }}
+                    width={1440}
+                    height={1440}
                   />
                   <div className="pt-6 text-center">
                     <h3 className="text-xl font-bold text-red-600 2xl:text-3xl font-serif">
@@ -228,6 +232,8 @@ export default function App(): JSX.Element {
                     src={Bob}
                     className="shadow-lg rounded max-w-full mx-auto"
                     style={{ maxWidth: "240px" }}
+                    width={1440}
+                    height={1440}
                   />
                   <div className="pt-6 text-center">
                     <h3 className="text-xl font-bold text-red-600 2xl:text-3xl font-serif">
@@ -250,6 +256,8 @@ export default function App(): JSX.Element {
                     src={Kim}
                     className="shadow-lg rounded max-w-full mx-auto md:max-h-[240px]"
                     style={{ maxWidth: "240px" }}
+                    width={889}
+                    height={1191}
                   />
                   <div className="pt-6 text-center">
                     <h3 className="text-xl font-bold text-red-600 2xl:text-3xl font-serif">
