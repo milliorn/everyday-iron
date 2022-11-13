@@ -1,5 +1,5 @@
-import Bob from "./assets/309664365_506748041277421_8884733249368847757_n.webp";
 import Mark from "./assets/131258568_302848314385492_1215783431070905553_n.jpg";
+import Bob from "./assets/309664365_506748041277421_8884733249368847757_n.webp";
 import Kim from "./assets/775165_107401996137699_1929697052_o.jpg";
 
 export default function App(): JSX.Element {
@@ -35,7 +35,9 @@ export default function App(): JSX.Element {
                     Welcome to The Official California American Powerlifting
                     Federation Gym. Sanctioned by World Powerlifting Congress,
                     it’s not just a gym, it’s an environment we created for
-                    people from all walks of life.
+                    people from all walks of life. Owned and Operated by U.S.
+                    ARMY Veteran. Ready to start your fitness journey with us?
+                    Scroll down to learn more!
                   </p>
                   <a
                     href="https://worldpowerliftingcongress.com/"
@@ -88,12 +90,12 @@ export default function App(): JSX.Element {
                 <div className="md:pr-12">
                   <small className="text-red-600">About our gym</small>
                   <h3 className="text-4xl uppercase font-bold">
-                    fitness center made for everyone
+                    Rhino Performance
                   </h3>
                   <p className="mt-4 text-lg leading-relaxed">
-                    The extension comes with three pre-built pages to help you
-                    get started faster. You can change the text and images and
-                    you're good to go.
+                    65 years of combined Expertise in Powerlifting, Olympic
+                    Weightlifting, Strength Training, Bodybuilding and Weight
+                    Management.
                   </p>
                   <ul className="list-none mt-6">
                     <li className="py-2">
@@ -104,8 +106,8 @@ export default function App(): JSX.Element {
                           </span>
                         </div>
                         <div>
-                          <h4 className="text-xl">
-                            The latest & greatest gym equipment
+                          <h4 className="text-xl capitalize">
+                            WPC approved equipment.
                           </h4>
                         </div>
                       </div>
@@ -118,8 +120,8 @@ export default function App(): JSX.Element {
                           </span>
                         </div>
                         <div>
-                          <h4 className="text-xl">
-                            5-inch, quality foam floor padding
+                          <h4 className="text-xl capitalize">
+                            York, Texas, Ohio, Swiss Barbells.
                           </h4>
                         </div>
                       </div>
@@ -132,7 +134,38 @@ export default function App(): JSX.Element {
                           </span>
                         </div>
                         <div>
-                          <h4 className="text-xl">3 professional trainers</h4>
+                          <h4 className="text-xl capitalize">
+                            Full shelves of Dumbbell weights including Olympic
+                            handles.
+                          </h4>
+                        </div>
+                      </div>
+                    </li>
+                    <li className="py-2">
+                      <div className="flex items-center">
+                        <div>
+                          <span className="font-semibold inline-block py-3 mr-3 text-red-600">
+                            <i className="fas fa-users fa-2x"></i>
+                          </span>
+                        </div>
+                        <div>
+                          <h4 className="text-xl capitalize">
+                            Isolation and Cable Machines for Bodybuilding
+                          </h4>
+                        </div>
+                      </div>
+                    </li>
+                    <li className="py-2">
+                      <div className="flex items-center">
+                        <div>
+                          <span className="font-semibold inline-block py-3 mr-3 text-red-600">
+                            <i className="fas fa-users fa-2x"></i>
+                          </span>
+                        </div>
+                        <div>
+                          <h4 className="text-xl capitalize">
+                            Cardio Equipment
+                          </h4>
                         </div>
                       </div>
                     </li>
@@ -144,14 +177,14 @@ export default function App(): JSX.Element {
         </section>
 
         {/** <!-- Trainers Section --> */}
-        <section className="pt-20 pb-48">
+        <section className="pt-20 pb-48 bg-neutral-900">
           <div className="container mx-auto px-4">
             <div className="flex flex-wrap justify-center text-center mb-24">
               <div className="w-full lg:w-6/12 px-4">
-                <h2 className="text-4xl font-semibold uppercase">
+                <h2 className="text-4xl font-semibold uppercase text-red-600">
                   Meet Our Trainers
                 </h2>
-                <p className="text-lg leading-relaxed m-4">
+                <p className="text-xl leading-relaxed m-4 text-white">
                   Our trainers are are here to dedicate the time and effort that
                   you need to get in the best shape of your life
                 </p>
@@ -164,16 +197,18 @@ export default function App(): JSX.Element {
                 className="w-full md:w-4/12 lg:mb-0 mb-12 px-4"
                 data-aos="flip-right"
               >
-                <div className="px-6">
+                <div className="px-6 md:relative">
                   <img
                     alt="..."
                     src={Mark}
                     className="shadow-lg rounded max-w-full mx-auto"
                     style={{ maxWidth: "240px" }}
                   />
-                  <div className="pt-6 text-center">
-                    <h5 className="text-xl font-bold">Mark Lopez</h5>
-                    <p className="mt-1 text-sm text-gray-500 uppercase font-semibold">
+                  <div className="pt-6 text-center md:absolute">
+                    <h5 className="text-xl font-bold text-red-600">
+                      Mark Lopez
+                    </h5>
+                    <p className="mt-1 text-sm text-gray-200 uppercase font-semibold">
                       Owner | Trainer | APF Director
                     </p>
                   </div>
@@ -184,16 +219,18 @@ export default function App(): JSX.Element {
                 className="w-full md:w-4/12 lg:mb-0 mb-12 px-4"
                 data-aos="flip-right"
               >
-                <div className="px-6">
+                <div className="px-6 md:relative">
                   <img
                     alt="..."
                     src={Bob}
                     className="shadow-lg rounded max-w-full mx-auto"
                     style={{ maxWidth: "240px" }}
                   />
-                  <div className="pt-6 text-center">
-                    <h5 className="text-xl font-bold">Bob Packer</h5>
-                    <p className="mt-1 text-sm text-gray-500 uppercase font-semibold">
+                  <div className="pt-6 text-center md:absolute">
+                    <h5 className="text-xl font-bold text-red-600">
+                      Bob Packer
+                    </h5>
+                    <p className="mt-1 text-sm text-gray-200 uppercase font-semibold">
                       Sales | Trainer | Powerlifting Hall of Fame
                     </p>
                   </div>
@@ -204,16 +241,18 @@ export default function App(): JSX.Element {
                 className="w-full md:w-4/12 lg:mb-0 mb-12 px-4"
                 data-aos="flip-right"
               >
-                <div className="px-6">
+                <div className="px-6 md:relative">
                   <img
                     alt="..."
                     src={Kim}
                     className="shadow-lg rounded max-w-full mx-auto md:max-h-[240px]"
                     style={{ maxWidth: "240px" }}
                   />
-                  <div className="pt-6 text-center">
-                    <h5 className="text-xl font-bold">Kim Packer</h5>
-                    <p className="mt-1 text-sm text-gray-500 uppercase font-semibold">
+                  <div className="pt-6 text-center md:absolute">
+                    <h5 className="text-xl font-bold text-red-600">
+                      Kim Packer
+                    </h5>
+                    <p className="mt-1 text-sm text-gray-200 uppercase font-semibold">
                       Trainer | Competitive Powerlifter & Bodybuilder
                     </p>
                   </div>
