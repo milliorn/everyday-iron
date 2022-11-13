@@ -5,62 +5,6 @@ import Kim from "./assets/775165_107401996137699_1929697052_o.jpg";
 export default function App(): JSX.Element {
   return (
     <>
-      <nav className="top-0 absolute z-50 w-full flex flex-wrap items-center justify-between px-2 py-3 navbar-expand-lg">
-        <div className="container px-4 mx-auto flex flex-wrap items-center justify-between">
-          <div className="w-full relative flex justify-between lg:w-auto lg:static lg:block lg:justify-start">
-            <a
-              className="text-lg font-bold leading-relaxed inline-block mr-4 py-2 whitespace-no-wrap uppercase text-white"
-              href="https://www.creative-tim.com/learning-lab/tailwind-starter-kit#/presentation"
-            >
-              Everday Iron Workout Warehouse
-            </a>
-            <button
-              className="cursor-pointer text-xl leading-none px-3 py-1 border border-solid border-transparent rounded bg-transparent block lg:hidden outline-none focus:outline-none"
-              type="button"
-              /**onclick */
-            >
-              <i className="text-white fas fa-bars"></i>
-            </button>
-          </div>
-          <div
-            className="lg:flex flex-grow items-center bg-white lg:bg-transparent lg:shadow-none hidden"
-            id="example-collapse-navbar"
-          >
-            <ul className="flex flex-col lg:flex-row list-none lg:ml-auto">
-              {/* <!-- Icon 1 --> */}
-              <li className="flex items-center">
-                <a
-                  className="lg:text-white lg:hover:text-gray-300 text-gray-800 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
-                  href="#pablo"
-                >
-                  <i className="text-orange-500 fab fa-facebook text-lg leading-lg"></i>
-                  <span className="lg:hidden inline-block ml-2">Share</span>
-                </a>
-              </li>
-              {/**  <!-- Icon 2 --> */}
-              <li className="flex items-center">
-                <a
-                  className="lg:text-white lg:hover:text-gray-300 text-gray-800 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
-                  href="#pablo"
-                >
-                  <i className="text-orange-500 fab fa-twitter text-lg leading-lg"></i>
-                  <span className="lg:hidden inline-block ml-2">Tweet</span>
-                </a>
-              </li>
-              {/** <!-- Icon 3 --> */}
-              <li className="flex items-center">
-                <a
-                  className="lg:text-white lg:hover:text-gray-300 text-gray-800 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
-                  href="#pablo"
-                >
-                  <i className="text-orange-500 fab fa-linkedin text-lg leading-lg"></i>
-                  <span className="lg:hidden inline-block ml-2">Profile</span>
-                </a>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </nav>
       {/** <!-- Main Area --> */}
       <main>
         {/** <!-- Hero --> */}
@@ -84,19 +28,22 @@ export default function App(): JSX.Element {
             <div className="items-center flex flex-wrap">
               <div className="w-full lg:w-6/12 px-4 ml-auto mr-auto text-center">
                 <div>
-                  <h1 className="text-white font-semibold text-5xl">
-                    Feel The <span className="text-orange-500">Power</span>
+                  <h1 className="text-red-600 font-semibold text-5xl ">
+                    Everyday <span className="text-white">Iron</span>
                   </h1>
                   <p className="mt-4 text-lg text-gray-300">
-                    Welcome to The Power Room. We are a fitness and training
-                    center that focuses on pushing you to your absolute limit.
-                    Download our complete brochure to get started today!
+                    Welcome to The Official California American Powerlifting
+                    Federation Gym. Sanctioned by World Powerlifting Congress,
+                    it’s not just a gym, it’s an environment we created for
+                    people from all walks of life.
                   </p>
                   <a
-                    href="/"
-                    className="bg-transparent hover:bg-orange-500 text-orange-500 font-semibold hover:text-white p-4 border border-orange-500 hover:border-transparent rounded inline-block mt-5 cursor-pointer"
+                    href="https://worldpowerliftingcongress.com/"
+                    target="_blank"
+                    className="bg-transparent hover:bg-red-600 text-red-600 font-semibold hover:text-white p-4 border border-red-600 hover:border-transparent rounded inline-block mt-5 cursor-pointer"
+                    rel="noreferrer"
                   >
-                    Download Brochure
+                    Go to WPC Website
                   </a>
                 </div>
               </div>
@@ -125,7 +72,7 @@ export default function App(): JSX.Element {
           <div className="container mx-auto px-4">
             <div className="items-center flex flex-wrap">
               <div
-                className="w-full md:w-4/12 ml-auto mr-auto px-4"
+                className="w-full md:w-6/12 ml-auto mr-auto px-4"
                 data-aos="fade-right"
               >
                 <img
@@ -139,9 +86,9 @@ export default function App(): JSX.Element {
                 data-aos="fade-left"
               >
                 <div className="md:pr-12">
-                  <small className="text-orange-500">About our gym</small>
+                  <small className="text-red-600">About our gym</small>
                   <h3 className="text-4xl uppercase font-bold">
-                    Safe Body Building
+                    fitness center made for everyone
                   </h3>
                   <p className="mt-4 text-lg leading-relaxed">
                     The extension comes with three pre-built pages to help you
@@ -152,7 +99,7 @@ export default function App(): JSX.Element {
                     <li className="py-2">
                       <div className="flex items-center">
                         <div>
-                          <span className="font-semibold inline-block py-3 mr-3 text-orange-500">
+                          <span className="font-semibold inline-block py-3 mr-3 text-red-600">
                             <i className="fas fa-dumbbell fa-2x"></i>
                           </span>
                         </div>
@@ -166,7 +113,7 @@ export default function App(): JSX.Element {
                     <li className="py-2">
                       <div className="flex items-center">
                         <div>
-                          <span className="font-semibold inline-block py-3 mr-3 text-orange-500">
+                          <span className="font-semibold inline-block py-3 mr-3 text-red-600">
                             <i className="fas fa-hard-hat fa-2x"></i>
                           </span>
                         </div>
@@ -180,7 +127,7 @@ export default function App(): JSX.Element {
                     <li className="py-2">
                       <div className="flex items-center">
                         <div>
-                          <span className="font-semibold inline-block py-3 mr-3 text-orange-500">
+                          <span className="font-semibold inline-block py-3 mr-3 text-red-600">
                             <i className="fas fa-users fa-2x"></i>
                           </span>
                         </div>
@@ -318,7 +265,7 @@ export default function App(): JSX.Element {
                   className="relative flex flex-col min-w-0 break-words w-full mb-6 shadow-lg rounded-lg bg-gray-300"
                   data-aos="fade-up-right"
                 >
-                  <div className="flex-auto p-5 lg:p-10 bg-orange-500 text-white">
+                  <div className="flex-auto p-5 lg:p-10 bg-red-600 text-white">
                     <h4 className="text-2xl font-semibold">
                       Want to work with us?
                     </h4>
@@ -420,19 +367,19 @@ export default function App(): JSX.Element {
                   className="bg-white text-blue-400 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2 p-3"
                   type="button"
                 >
-                  <i className="flex fab fa-twitter text-orange-500"></i>
+                  <i className="flex fab fa-twitter text-red-600"></i>
                 </button>
                 <button
                   className="bg-white text-blue-600 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2 p-3"
                   type="button"
                 >
-                  <i className="flex fab fa-facebook-square text-orange-500"></i>
+                  <i className="flex fab fa-facebook-square text-red-600"></i>
                 </button>
                 <button
                   className="bg-white text-pink-400 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2 p-3"
                   type="button"
                 >
-                  <i className="flex fab fa-linkedin text-orange-500"></i>
+                  <i className="flex fab fa-linkedin text-red-600"></i>
                 </button>
               </div>
             </div>
