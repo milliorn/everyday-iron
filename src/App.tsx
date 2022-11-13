@@ -311,7 +311,7 @@ export default function App(): JSX.Element {
                 <a
                   className="bg-blue-500 text-white shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2 p-3"
                   type="button"
-                  href="https://cash.app/$RhinoLopez"
+                  href="https://www.facebook.com/rhinosEI"
                   target="_blank"
                   rel="noreferrer"
                 >
@@ -320,7 +320,7 @@ export default function App(): JSX.Element {
                 <a
                   className="bg-fuchsia-700 text-white shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2 p-3"
                   type="button"
-                  href="https://cash.app/$RhinoLopez"
+                  href="https://www.instagram.com/everyday_iron/"
                   target="_blank"
                   rel="noreferrer"
                 >
@@ -329,7 +329,7 @@ export default function App(): JSX.Element {
                 <a
                   className="bg-red-500 text-white shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2 p-3"
                   type="button"
-                  href="https://cash.app/$RhinoLopez"
+                  href="https://goo.gl/maps/abEtXLCVTWeupqKD8"
                   target="_blank"
                   rel="noreferrer"
                 >
@@ -338,7 +338,7 @@ export default function App(): JSX.Element {
                 <a
                   className="bg-orange-400 text-white shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2 p-3"
                   type="button"
-                  href="https://cash.app/$RhinoLopez"
+                  href="tel:+1-559-577-8679"
                   target="_blank"
                   rel="noreferrer"
                 >
@@ -347,7 +347,7 @@ export default function App(): JSX.Element {
                 <a
                   className="bg-red-600 text-white shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2 p-3"
                   type="button"
-                  href="https://cash.app/$RhinoLopez"
+                  href="mailto:everydayiron8489@gmail.com"
                   target="_blank"
                   rel="noreferrer"
                 >
