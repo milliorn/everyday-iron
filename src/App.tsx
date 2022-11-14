@@ -29,7 +29,7 @@ export default function App(): JSX.Element {
             <span
               id="blackOverlay"
               className="w-full h-full absolute opacity-80 bg-black"
-            ></span>
+             />
           </div>
           <div className="container relative mx-auto" data-aos="fade-in">
             <div className="items-center flex flex-wrap">
@@ -72,7 +72,7 @@ export default function App(): JSX.Element {
               x="0"
               y="0"
             >
-              <polygon points="2560 0 2560 100 0 100"></polygon>
+              <polygon points="2560 0 2560 100 0 100" />
             </svg>
           </div>
         </div>
@@ -111,7 +111,7 @@ export default function App(): JSX.Element {
                       <div className="flex items-center">
                         <div>
                           <span className="font-semibold inline-block py-3 mr-3 text-red-600">
-                            <i className="fas fa-dumbbell fa-2x"></i>
+                            <i className="fas fa-dumbbell fa-2x" />
                           </span>
                         </div>
                         <div>
@@ -125,7 +125,7 @@ export default function App(): JSX.Element {
                       <div className="flex items-center">
                         <div>
                           <span className="font-semibold inline-block py-3 mr-3 text-red-600">
-                            <i className="fas fa-hard-hat fa-2x"></i>
+                            <i className="fas fa-hard-hat fa-2x" />
                           </span>
                         </div>
                         <div>
@@ -139,7 +139,7 @@ export default function App(): JSX.Element {
                       <div className="flex items-center">
                         <div>
                           <span className="font-semibold inline-block py-3 mr-3 text-red-600">
-                            <i className="fas fa-users fa-2x"></i>
+                            <i className="fas fa-users fa-2x" />
                           </span>
                         </div>
                         <div>
@@ -153,7 +153,7 @@ export default function App(): JSX.Element {
                       <div className="flex items-center">
                         <div>
                           <span className="font-semibold inline-block py-3 mr-3 text-red-600">
-                            <i className="fas fa-users fa-2x"></i>
+                            <i className="fas fa-users fa-2x" />
                           </span>
                         </div>
                         <div>
@@ -167,7 +167,7 @@ export default function App(): JSX.Element {
                       <div className="flex items-center">
                         <div>
                           <span className="font-semibold inline-block py-3 mr-3 text-red-600">
-                            <i className="fas fa-users fa-2x"></i>
+                            <i className="fas fa-users fa-2x" />
                           </span>
                         </div>
                         <div>
@@ -295,7 +295,7 @@ export default function App(): JSX.Element {
             <polygon
               className="text-gray-300 fill-current"
               points="2560 0 2560 100 0 100"
-            ></polygon>
+             />
           </svg>
         </div>
         <div className="container mx-auto px-4">
