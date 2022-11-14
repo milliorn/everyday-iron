@@ -1,7 +1,10 @@
+
 import hero from "../assets/hero.jpg";
 
 /** app hero */
 export default function Hero(): JSX.Element {
+
+
   return (
     <div
       className="relative pt-16 pb-32 flex content-center items-center justify-center"
@@ -16,7 +19,7 @@ export default function Hero(): JSX.Element {
         <span
           id="blackOverlay"
           className="w-full h-full absolute opacity-80 bg-black"
-        ></span>
+        />
       </div>
       <div className="container relative mx-auto" data-aos="fade-in">
         <div className="items-center flex flex-wrap">
@@ -57,7 +60,7 @@ export default function Hero(): JSX.Element {
           x="0"
           y="0"
         >
-          <polygon points="2560 0 2560 100 0 100"></polygon>
+          <polygon points="2560 0 2560 100 0 100" />
         </svg>
       </div>
     </div>
