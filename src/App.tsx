@@ -1,5 +1,8 @@
+/** npm */
 import Aos from "aos";
+/** react */
 import { useEffect } from "react";
+/** components */
 import About from "./components/About";
 import Footer from "./components/Footer";
 import Hero from "./components/Hero";
