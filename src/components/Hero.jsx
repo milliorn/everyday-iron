@@ -3,11 +3,7 @@ import { BsFillArrowDownCircleFill } from "react-icons/bs";
 export function Hero(props) {
   return (
     <div className="relative w-full max-h-fit">
-      <img
-        src={props.img}
-        alt={props.alt}
-        className="w-screen h-100 "
-      />
+      <img src={props.img} alt={props.alt} className="w-screen h-100 " />
       <button
         onClick={props.onClick}
         className="absolute bg-white rounded-full cursor-pointer drop-shadow-2xl top-3/4 left-1/2 animate-pulse "

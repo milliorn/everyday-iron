@@ -6,31 +6,31 @@ export const data = [
   {
     alt: "cash-app",
     href: "https://cash.app/$RhinoLopez",
-    icon: <SiCashapp />
+    icon: <SiCashapp />,
   },
   {
     alt: "facebook",
     href: "https://www.facebook.com/rhinosEI",
-    icon: <BsFacebook />
+    icon: <BsFacebook />,
   },
   {
     alt: "instagram",
     href: "https://www.instagram.com/everyday_iron/",
-    icon: <BsInstagram />
+    icon: <BsInstagram />,
   },
   {
     alt: "google maps",
     href: "https://goo.gl/maps/abEtXLCVTWeupqKD8",
-    icon: <SiGooglemaps />
+    icon: <SiGooglemaps />,
   },
   {
     alt: "phone number",
     href: "tel:+1-559-577-8679",
-    icon: <BsFillTelephoneFill />
+    icon: <BsFillTelephoneFill />,
   },
   {
     alt: "email",
     href: "mailto:everydayiron8489@gmail.com",
-    icon: <AiOutlineMail />
-  }
-]
+    icon: <AiOutlineMail />,
+  },
+];

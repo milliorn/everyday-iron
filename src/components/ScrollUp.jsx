@@ -13,7 +13,8 @@ export function ScrollUp(props) {
       >
         <BsFillArrowUpCircleFill
           className="text-3xl text-green-900 sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl"
-          aria-hidden="true" />
+          aria-hidden="true"
+        />
       </button>
     </div>
   );
