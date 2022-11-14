@@ -1,4 +1,3 @@
-
 export function About(props) {
   return (
     <section className="relative w-full max-h-fit" ref={props.aboutImage}>
