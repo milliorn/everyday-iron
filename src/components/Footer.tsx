@@ -1,6 +1,52 @@
 import { AiOutlineMail } from "react-icons/ai";
 import { BsFacebook, BsFillTelephoneFill, BsInstagram } from "react-icons/bs";
 import { SiCashapp, SiGooglemaps } from "react-icons/si";
+import uuid from "react-uuid";
+
+const footerData = [
+  {
+    href: "https://cash.app/$RhinoLopez",
+    app: <SiCashapp />,
+    label: "cash app",
+    class:
+      "bg-green-500 text-white shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2 p-3",
+  },
+  {
+    href: "https://www.facebook.com/rhinosEI",
+    app: <BsFacebook />,
+    label: "facebook",
+    class:
+      "bg-blue-500 text-white shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2 p-3",
+  },
+  {
+    href: "https://www.instagram.com/everyday_iron/",
+    app: <BsInstagram />,
+    label: "instagram",
+    class:
+      "bg-fuchsia-700 text-white shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2 p-3",
+  },
+  {
+    href: "https://goo.gl/maps/abEtXLCVTWeupqKD8",
+    app: <SiGooglemaps />,
+    label: "google maps",
+    class:
+      "bg-red-500 text-white shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2 p-3",
+  },
+  {
+    href: "tel:+1-559-577-8679",
+    app: <BsFillTelephoneFill />,
+    label: "phone number",
+    class:
+      "bg-orange-400 text-white shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2 p-3",
+  },
+  {
+    href: "mailto:everydayiron8489@gmail.com",
+    app: <AiOutlineMail />,
+    label: "email",
+    class:
+      "bg-red-600 text-white shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2 p-3",
+  },
+];
 
 /** container for footer */
 function FooterContainer(): JSX.Element {
@@ -13,69 +59,29 @@ function FooterContainer(): JSX.Element {
         <h4 className="text-lg my-2 text-gray-700 text-center">
           Contact us on those platforms. Also by phone or email.
         </h4>
-        <div className="mt-6 justify-center flex">
-          <a
-            className="bg-green-500 text-white shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2 p-3"
-            type="button"
-            href="https://cash.app/$RhinoLopez"
-            target="_blank"
-            rel="noreferrer"
-            aria-label="cash app"
-          >
-            <SiCashapp />
-          </a>
-          <a
-            className="bg-blue-500 text-white shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2 p-3"
-            type="button"
-            href="https://www.facebook.com/rhinosEI"
-            target="_blank"
-            rel="noreferrer"
-            aria-label="facebook"
-          >
-            <BsFacebook />
-          </a>
-          <a
-            className="bg-fuchsia-700 text-white shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2 p-3"
-            type="button"
-            href="https://www.instagram.com/everyday_iron/"
-            target="_blank"
-            rel="noreferrer"
-            aria-label="instagram"
-          >
-            <BsInstagram />
-          </a>
-          <a
-            className="bg-red-500 text-white shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2 p-3"
-            type="button"
-            href="https://goo.gl/maps/abEtXLCVTWeupqKD8"
-            target="_blank"
-            rel="noreferrer"
-            aria-label="google maps"
-          >
-            <SiGooglemaps />
-          </a>
-          <a
-            className="bg-orange-400 text-white shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2 p-3"
-            type="button"
-            href="tel:+1-559-577-8679"
-            target="_blank"
-            rel="noreferrer"
-            aria-label="phone number"
-          >
-            <BsFillTelephoneFill />
-          </a>
-          <a
-            className="bg-red-600 text-white shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2 p-3"
-            type="button"
-            href="mailto:everydayiron8489@gmail.com"
-            target="_blank"
-            rel="noreferrer"
-            aria-label="email"
-          >
-            <AiOutlineMail />
-          </a>
-        </div>
+        <FooterAnchorContainer />
       </div>
+    </div>
+  );
+}
+
+/** generate footer buttons */
+function FooterAnchorContainer(): JSX.Element {
+  return (
+    <div className="mt-6 justify-center flex">
+      {footerData.map((item) => (
+        <a
+          className={item.class}
+          type="button"
+          href={item.href}
+          target="_blank"
+          rel="noreferrer"
+          aria-label={item.label}
+          key={uuid()}
+        >
+          {item.app}
+        </a>
+      ))}
     </div>
   );
 }

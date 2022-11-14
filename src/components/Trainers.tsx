@@ -1,6 +1,108 @@
+import uuid from "react-uuid";
 import Bob from "../assets/bob.webp";
 import Kim from "../assets/kim.webp";
 import Mark from "../assets/mark.webp";
+
+const trainerData = [
+  {
+    src: Mark,
+    width: "1440",
+    height: "1440",
+    alt: "trainer mark",
+    classCSS: "shadow-lg rounded max-w-full mx-auto",
+    trainer: "Mark Lopez",
+    info: "Owner | Trainer | APF Director",
+  },
+  {
+    src: Bob,
+    width: "1440",
+    height: "1440",
+    alt: "trainer bob",
+    classCSS: "shadow-lg rounded max-w-full mx-auto",
+    trainer: "Bob Packer",
+    info: "Sales | Trainer | Powerlifting Hall of Fame",
+  },
+  {
+    src: Kim,
+    width: "889",
+    height: "1191",
+    alt: "trainer kim",
+    classCSS: "shadow-lg rounded max-w-full mx-auto md:max-h-[240px]",
+    trainer: "Kim Packer",
+    info: "Trainer | Competitive Powerlifter & Bodybuilder",
+  },
+];
+
+/** holds text found in trainer cards */
+function TrainerCardInnerText(props: {
+  trainer: string;
+  info: string;
+}): JSX.Element {
+  const { trainer, info } = props;
+  return (
+    <div className="pt-6 text-center">
+      <h3 className="text-xl font-bold text-red-600 2xl:text-3xl font-serif">
+        {trainer}
+      </h3>
+      <p className="mt-1 text-sm text-gray-200 uppercase font-semibold  2xl:text-base font-serif">
+        {info}
+      </p>
+    </div>
+  );
+}
+
+/** template to make trainer card image */
+function TrainerCardTemplate(props: {
+  src: string;
+  width: string;
+  height: string;
+  alt: string;
+  classCSS: string;
+  trainer: string;
+  info: string;
+}): JSX.Element {
+  const { src, width, height, alt, classCSS, trainer, info } = props;
+  return (
+    <div className="px-6">
+      <img
+        src={src}
+        width={width}
+        height={height}
+        alt={alt}
+        className={classCSS}
+        style={{ maxWidth: "240px" }}
+      />
+      <TrainerCardInnerText trainer={trainer} info={info} />{" "}
+    </div>
+  );
+}
+
+/** cards found in trainer */
+function TrainerCardWrapper() {
+  return (
+    <div className="flex flex-wrap">
+      {trainerData.map((data): JSX.Element => {
+        return (
+          <div
+            className="w-full md:w-4/12 lg:mb-0 my-4 px-4"
+            data-aos="flip-right"
+            key={uuid()}
+          >
+            <TrainerCardTemplate
+              src={data.src}
+              width={data.width}
+              height={data.height}
+              alt={data.alt}
+              classCSS={data.classCSS}
+              trainer={data.trainer}
+              info={data.info}
+            />
+          </div>
+        );
+      })}
+    </div>
+  );
+}
 
 /** text found in trainer */
 function TrainerText(): JSX.Element {
@@ -14,79 +116,6 @@ function TrainerText(): JSX.Element {
           Our trainers are here to dedicate the time and effort that you need to
           get in the best shape of your life!
         </p>
-      </div>
-    </div>
-  );
-}
-
-/** cards found in trainer */
-function TrainerCardWrapper() {
-  return (
-    <div className="flex flex-wrap">
-      {/** <!-- Card 1 --> */}
-      <div className="w-full md:w-4/12 lg:mb-0 my-4 px-4" data-aos="flip-right">
-        <div className="px-6">
-          <img
-            src={Mark}
-            width="1440"
-            height="1440"
-            alt=""
-            className="shadow-lg rounded max-w-full mx-auto"
-            style={{ maxWidth: "240px" }}
-          />
-          <div className="pt-6 text-center">
-            <h3 className="text-xl font-bold text-red-600 2xl:text-3xl font-serif">
-              Mark Lopez
-            </h3>
-            <p className="mt-1 text-sm text-gray-200 uppercase font-semibold  2xl:text-base font-serif">
-              Owner | Trainer | APF Director
-            </p>
-          </div>
-        </div>
-      </div>
-
-      {/** <!-- Card 2 --> */}
-      <div className="w-full md:w-4/12 lg:mb-0 my-4 px-4" data-aos="flip-right">
-        <div className="px-6">
-          <img
-            src={Bob}
-            width="1440"
-            height="1440"
-            alt=""
-            className="shadow-lg rounded max-w-full mx-auto"
-            style={{ maxWidth: "240px" }}
-          />
-          <div className="pt-6 text-center">
-            <h3 className="text-xl font-bold text-red-600 2xl:text-3xl font-serif">
-              Bob Packer
-            </h3>
-            <p className="mt-1 text-sm text-gray-200 uppercase font-semibold  2xl:text-base font-serif">
-              Sales | Trainer | Powerlifting Hall of Fame
-            </p>
-          </div>
-        </div>
-      </div>
-
-      {/** <!-- Card 3 --> */}
-      <div className="w-full md:w-4/12 lg:mb-0 my-4 px-4" data-aos="flip-right">
-        <div className="px-6">
-          <img
-            src={Kim}
-            width="889"
-            height="1191"
-            alt=""
-            className="shadow-lg rounded max-w-full mx-auto md:max-h-[240px]"
-            style={{ maxWidth: "240px" }}
-          />
-          <div className="pt-6 text-center">
-            <h3 className="text-xl font-bold text-red-600 2xl:text-3xl font-serif">
-              Kim Packer
-            </h3>
-            <p className="mt-1 text-sm text-gray-200 uppercase font-semibold  2xl:text-base font-serif">
-              Trainer | Competitive Powerlifter & Bodybuilder
-            </p>
-          </div>
-        </div>
       </div>
     </div>
   );

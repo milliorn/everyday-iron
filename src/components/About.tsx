@@ -1,6 +1,6 @@
 import uuid from "react-uuid";
 
-import Monolith from "../assets/monolith.jpg";
+import Monolith from "../assets/monolith.webp";
 
 const aboutData = [
   "WPC approved equipment.",
@@ -10,24 +10,17 @@ const aboutData = [
   "Cardio Equipment",
 ];
 
-/** Template for list items in About */
-function AboutListTemplate(props: { about: string }): JSX.Element {
-  const { about } = props;
-  return (
-    <li className="py-2" key={uuid()}>
-      <div className="flex items-center">
-        <h3 className="text-xl capitalize 2xl:text-3xl">{about}</h3>
-      </div>
-    </li>
-  );
-}
-
 /** container to hold list items in about */
 function AboutList() {
   return (
     <ul className="list-none mt-6">
       {aboutData.map((about) => (
-        <AboutListTemplate about={about} />
+        <li
+          className="py-2 flex items-center text-xl capitalize 2xl:text-3xl"
+          key={uuid()}
+        >
+          {about}
+        </li>
       ))}
     </ul>
   );
@@ -51,17 +44,20 @@ function AboutTextContainer(): JSX.Element {
   );
 }
 
-/** container for image found in about component */
-function AboutImageContainer(): JSX.Element {
+/** wrapper for component */
+function AboutWrapper(): JSX.Element {
   return (
-    <div className="w-full md:w-7/12 mx-auto px-4" data-aos="fade-right">
-      <img
-        src={Monolith}
-        alt="monolift"
-        width="1440"
-        height="1080"
-        className="max-w-full rounded-lg shadow-lg opacity-60"
-      />
+    <div className="items-center flex flex-wrap">
+      <div className="w-full md:w-7/12 mx-auto px-4" data-aos="fade-right">
+        <img
+          src={Monolith}
+          alt="monolift"
+          width={1440}
+          height={1080}
+          className="max-w-full rounded-lg shadow-lg opacity-60"
+        />
+      </div>
+      <AboutTextContainer />
     </div>
   );
 }
@@ -71,10 +67,7 @@ export default function About(): JSX.Element {
   return (
     <section id="about" className="relative py-20 bg-black text-white">
       <div className="container mx-auto px-4">
-        <div className="items-center flex flex-wrap">
-          <AboutImageContainer />
-          <AboutTextContainer />
-        </div>
+        <AboutWrapper />
       </div>
     </section>
   );

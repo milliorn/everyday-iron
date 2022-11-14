@@ -1,4 +1,4 @@
-import hero from "../assets/hero.jpg";
+import hero from "../assets/hero.webp";
 
 /** render a black overlap on top of hero image */
 function HeroOverlay(): JSX.Element {

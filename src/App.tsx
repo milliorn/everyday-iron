@@ -13,7 +13,7 @@ export default function App(): JSX.Element {
   /** https://stackoverflow.com/a/59507994/11986604 */
   useEffect(() => {
     Aos.init({
-      duration: 2000,
+      duration: 3000,
     });
   }, []);
 
