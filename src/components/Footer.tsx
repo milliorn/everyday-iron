@@ -2,20 +2,7 @@ import { AiOutlineMail } from "react-icons/ai";
 import { BsFacebook, BsFillTelephoneFill, BsInstagram } from "react-icons/bs";
 import { SiCashapp, SiGooglemaps } from "react-icons/si";
 
-/** app footer */
-export default function Footer() {
-  return (
-    <footer className="relative bg-gray-300 pt-8 pb-6">
-      <SlantRightUp />
-      <div className="container mx-auto px-4">
-        <FooterContainer />
-        <hr className="my-6 border-gray-400" />
-        <Copyright />
-      </div>
-    </footer>
-  );
-}
-
+/** container for footer */
 function FooterContainer(): JSX.Element {
   return (
     <div className="flex flex-wrap  items-center justify-center align-center">
@@ -93,6 +80,7 @@ function FooterContainer(): JSX.Element {
   );
 }
 
+/** draw line with background color to make border */
 function SlantRightUp(): JSX.Element {
   return (
     <div
@@ -116,6 +104,7 @@ function SlantRightUp(): JSX.Element {
   );
 }
 
+/** print copyright in footer */
 function Copyright(): JSX.Element {
   return (
     <div className="flex flex-wrap items-center md:justify-between justify-center">
@@ -126,5 +115,19 @@ function Copyright(): JSX.Element {
         </div>
       </div>
     </div>
+  );
+}
+
+/** app footer */
+export default function Footer() {
+  return (
+    <footer className="relative bg-gray-300 pt-8 pb-6">
+      <SlantRightUp />
+      <div className="container mx-auto px-4">
+        <FooterContainer />
+        <hr className="my-6 border-gray-400" />
+        <Copyright />
+      </div>
+    </footer>
   );
 }

@@ -1,19 +1,6 @@
 import hero from "../assets/hero.jpg";
 
-/** app hero */
-export default function Hero(): JSX.Element {
-  return (
-    <div
-      className="relative pt-16 pb-32 flex content-center items-center justify-center"
-      style={{ minHeight: "95vh" }}
-    >
-      <HeroOverlay />
-      <HeroTextContainer />
-      <HeroRightUp />
-    </div>
-  );
-}
-
+/** render a black overlap on top of hero image */
 function HeroOverlay(): JSX.Element {
   return (
     <div
@@ -30,16 +17,7 @@ function HeroOverlay(): JSX.Element {
   );
 }
 
-function HeroTextContainer(): JSX.Element {
-  return (
-    <div className="container relative mx-auto" data-aos="fade-in">
-      <div className="items-center flex flex-wrap">
-        <HeroTextInner />
-      </div>
-    </div>
-  );
-}
-
+/** holds text and button for hero image */
 function HeroTextInner(): JSX.Element {
   return (
     <div className="w-full lg:w-6/12 px-4 ml-auto mr-auto text-center">
@@ -65,6 +43,18 @@ function HeroTextInner(): JSX.Element {
   );
 }
 
+/** wrapper text and button for hero image */
+function HeroTextContainer(): JSX.Element {
+  return (
+    <div className="container relative mx-auto" data-aos="fade-in">
+      <div className="items-center flex flex-wrap">
+        <HeroTextInner />
+      </div>
+    </div>
+  );
+}
+
+/** draw line with background color to make border */
 function HeroRightUp(): JSX.Element {
   return (
     <div
@@ -82,6 +72,20 @@ function HeroRightUp(): JSX.Element {
       >
         <polygon points="2560 0 2560 100 0 100" />
       </svg>
+    </div>
+  );
+}
+
+/** app hero */
+export default function Hero(): JSX.Element {
+  return (
+    <div
+      className="relative pt-16 pb-32 flex content-center items-center justify-center"
+      style={{ minHeight: "95vh" }}
+    >
+      <HeroOverlay />
+      <HeroTextContainer />
+      <HeroRightUp />
     </div>
   );
 }

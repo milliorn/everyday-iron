@@ -1,19 +1,39 @@
+import uuid from "react-uuid";
+
 import Monolith from "../assets/monolith.jpg";
 
-/** app about component */
-export function About(): JSX.Element {
+const aboutData = [
+  "WPC approved equipment.",
+  "York, Texas, Ohio, Swiss Barbells.",
+  "Dumbbell weights including Olympic handles.",
+  "Isolation and Cable Machines for Bodybuilding",
+  "Cardio Equipment",
+];
+
+/** Template for list items in About */
+function AboutListTemplate(props: { about: string }): JSX.Element {
+  const { about } = props;
   return (
-    <section id="about" className="relative py-20 bg-black text-white">
-      <div className="container mx-auto px-4">
-        <div className="items-center flex flex-wrap">
-          <AboutImageContainer />
-          <AboutTextContainer />
-        </div>
+    <li className="py-2" key={uuid()}>
+      <div className="flex items-center">
+        <h3 className="text-xl capitalize 2xl:text-3xl">{about}</h3>
       </div>
-    </section>
+    </li>
   );
 }
 
+/** container to hold list items in about */
+function AboutList() {
+  return (
+    <ul className="list-none mt-6">
+      {aboutData.map((about) => (
+        <AboutListTemplate about={about} />
+      ))}
+    </ul>
+  );
+}
+
+/** about container */
 function AboutTextContainer(): JSX.Element {
   return (
     <div className="w-full md:w-5/12 ml-auto mr-auto px-4" data-aos="fade-left">
@@ -25,48 +45,13 @@ function AboutTextContainer(): JSX.Element {
           65 years of combined Expertise in Powerlifting, Olympic Weightlifting,
           Strength Training, Bodybuilding and Weight Management.
         </p>
-        <ul className="list-none mt-6">
-          <li className="py-2">
-            <div className="flex items-center">
-              <h3 className="text-xl capitalize 2xl:text-3xl">
-                WPC approved equipment.
-              </h3>
-            </div>
-          </li>
-          <li className="py-2">
-            <div className="flex items-center">
-              <h3 className="text-xl capitalize 2xl:text-3xl">
-                York, Texas, Ohio, Swiss Barbells.
-              </h3>
-            </div>
-          </li>
-          <li className="py-2">
-            <div className="flex items-center">
-              <h3 className="text-xl capitalize 2xl:text-3xl">
-                Dumbbell weights including Olympic handles.
-              </h3>
-            </div>
-          </li>
-          <li className="py-2">
-            <div className="flex items-center">
-              <h3 className="text-xl capitalize 2xl:text-3xl">
-                Isolation and Cable Machines for Bodybuilding
-              </h3>
-            </div>
-          </li>
-          <li className="py-2">
-            <div className="flex items-center">
-              <h3 className="text-xl capitalize 2xl:text-3xl">
-                Cardio Equipment
-              </h3>
-            </div>
-          </li>
-        </ul>
+        <AboutList />
       </div>
     </div>
   );
 }
 
+/** container for image found in about component */
 function AboutImageContainer(): JSX.Element {
   return (
     <div className="w-full md:w-7/12 mx-auto px-4" data-aos="fade-right">
@@ -81,4 +66,16 @@ function AboutImageContainer(): JSX.Element {
   );
 }
 
-export default About;
+/** app about component */
+export default function About(): JSX.Element {
+  return (
+    <section id="about" className="relative py-20 bg-black text-white">
+      <div className="container mx-auto px-4">
+        <div className="items-center flex flex-wrap">
+          <AboutImageContainer />
+          <AboutTextContainer />
+        </div>
+      </div>
+    </section>
+  );
+}
