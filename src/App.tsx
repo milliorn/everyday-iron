@@ -2,9 +2,11 @@ import { AiOutlineMail } from "react-icons/ai";
 import { BsFacebook, BsFillTelephoneFill, BsInstagram } from "react-icons/bs";
 import { SiCashapp, SiGooglemaps } from "react-icons/si";
 
-import Mark from "./assets/131258568_302848314385492_1215783431070905553_n.jpg";
-import Bob from "./assets/309664365_506748041277421_8884733249368847757_n.webp";
-import Kim from "./assets/775165_107401996137699_1929697052_o.jpg";
+import Bob from "./assets/bob.webp";
+import Hero from "./assets/hero.jpg";
+import Kim from "./assets/kim.webp";
+import Mark from "./assets/mark.webp";
+import Monolith from "./assets/monolith.jpg";
 
 export default function App(): JSX.Element {
   return (
@@ -19,8 +21,9 @@ export default function App(): JSX.Element {
           <div
             className="absolute top-0 w-full h-full bg-top bg-cover"
             style={{
-              backgroundImage:
-                "url('https://scontent.fsac1-2.fna.fbcdn.net/v/t39.30808-6/301132168_1336908660049421_5821234938742637666_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=a26aad&_nc_ohc=32yLPE-k3q8AX_NBXas&_nc_ht=scontent.fsac1-2.fna&oh=00_AfBw1pYTkEWr7NV8nF8Qh3ttluyL-z7c-E_2En-2eu7fwg&oe=6374FC6D')",
+              backgroundImage: `url(${Hero})`,
+              height: "1440px",
+              width: "1440px",
             }}
           >
             <span
@@ -83,11 +86,11 @@ export default function App(): JSX.Element {
                 data-aos="fade-right"
               >
                 <img
-                  alt="..."
+                  src={Monolith}
+                  alt="monolift"
+                  width="1440"
+                  height="1080"
                   className="max-w-full rounded-lg shadow-lg opacity-60"
-                  src="https://scontent.fsac1-1.fna.fbcdn.net/v/t39.30808-6/280504714_1270228856717402_4541068673034417592_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=a26aad&_nc_ohc=rrXxa-rSop8AX85Bbyk&tn=prYenuatE62SFggE&_nc_ht=scontent.fsac1-1.fna&oh=00_AfC0fXC89jQzyxyAl87kOTMLVFG3nmTC4bGoF4wW5lc2Wg&oe=6373852B"
-                  width={1440}
-                  height={1080}
                 />
               </div>
               <div
@@ -204,12 +207,12 @@ export default function App(): JSX.Element {
               >
                 <div className="px-6">
                   <img
-                    alt="..."
                     src={Mark}
+                    width="1440"
+                    height="1440"
+                    alt=""
                     className="shadow-lg rounded max-w-full mx-auto"
                     style={{ maxWidth: "240px" }}
-                    width={1440}
-                    height={1440}
                   />
                   <div className="pt-6 text-center">
                     <h3 className="text-xl font-bold text-red-600 2xl:text-3xl font-serif">
@@ -228,12 +231,12 @@ export default function App(): JSX.Element {
               >
                 <div className="px-6">
                   <img
-                    alt="..."
                     src={Bob}
+                    width="1440"
+                    height="1440"
+                    alt=""
                     className="shadow-lg rounded max-w-full mx-auto"
                     style={{ maxWidth: "240px" }}
-                    width={1440}
-                    height={1440}
                   />
                   <div className="pt-6 text-center">
                     <h3 className="text-xl font-bold text-red-600 2xl:text-3xl font-serif">
@@ -252,12 +255,12 @@ export default function App(): JSX.Element {
               >
                 <div className="px-6">
                   <img
-                    alt="..."
                     src={Kim}
+                    width="889"
+                    height="1191"
+                    alt=""
                     className="shadow-lg rounded max-w-full mx-auto md:max-h-[240px]"
                     style={{ maxWidth: "240px" }}
-                    width={889}
-                    height={1191}
                   />
                   <div className="pt-6 text-center">
                     <h3 className="text-xl font-bold text-red-600 2xl:text-3xl font-serif">
