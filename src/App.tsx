@@ -8,6 +8,7 @@ import Kim from "./assets/kim.webp";
 import Mark from "./assets/mark.webp";
 import Monolith from "./assets/monolith.jpg";
 
+/** main app */
 export default function App(): JSX.Element {
   return (
     <>
