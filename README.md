@@ -9,8 +9,6 @@
 [![DeepSource](https://deepsource.io/gh/milliorn/Everyday-Iron.svg/?label=active+issues&show_trend=true&token=kxfzo8Pl3O8GBKBw5KxJl6F0)](https://deepsource.io/gh/milliorn/Everyday-Iron/?ref=repository-badge)
 [![DeepSource](https://deepsource.io/gh/milliorn/Everyday-Iron.svg/?label=resolved+issues&show_trend=true&token=kxfzo8Pl3O8GBKBw5KxJl6F0)](https://deepsource.io/gh/milliorn/Everyday-Iron/?ref=repository-badge)
 
-Source code for Everyday Iron Workout Warehouse website done in React using Tailwind.
-
 This project was bootstrapped with [Create React App](https://create-react-app.dev/docs/adding-typescript/) and [TailwindCSS](https://tailwindcss.com/docs/guides/create-react-app).
 
 `tsconfig.json` built from [Microsoft TypeScript-React-Starter](https://github.com/microsoft/TypeScript-React-Starter/blob/master/tsconfig.json)
