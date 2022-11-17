@@ -84,8 +84,8 @@ function TrainerCardWrapper() {
       {trainerData.map((data): JSX.Element => {
         return (
           <div
-            className="w-full md:w-4/12 lg:mb-0 my-4 px-4"
-            data-aos="flip-right"
+            className="w-full lg:w-4/12 lg:mb-0 my-4 px-4"
+            data-aos="fade"
             key={uuid()}
           >
             <TrainerCardTemplate
@@ -114,9 +114,9 @@ function TrainerText(): JSX.Element {
         </h2>
         <p className="text-xl leading-relaxed mt-4 text-white 2xl:text-3xl">
           65 years of combined Expertise in Powerlifting, Olympic Weightlifting,
-          Strength Training, Bodybuilding and Weight Management. Our trainers are
-          here to dedicate the time and effort that you need to get in the best
-          shape of your life!
+          Strength Training, Bodybuilding and Weight Management. Our trainers
+          are here to dedicate the time and effort that you need to get in the
+          best shape of your life!
         </p>
       </div>
     </div>

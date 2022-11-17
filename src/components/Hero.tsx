@@ -37,7 +37,7 @@ function HeroTextInner(): JSX.Element {
         className="bg-transparent hover:bg-red-600 text-red-600 font-semibold hover:bold hover:text-white p-4 border border-red-600 hover:border-transparent rounded inline-block mt-5 cursor-pointer 2xl:text-2xl"
         rel="noreferrer"
       >
-        Let's Get Started!
+        Let&apos;s Get Started!
       </a>
     </div>
   );
@@ -46,7 +46,7 @@ function HeroTextInner(): JSX.Element {
 /** wrapper text and button for hero image */
 function HeroTextContainer(): JSX.Element {
   return (
-    <div className="container relative mx-auto" data-aos="fade-in">
+    <div className="container relative mx-auto" data-aos="fade">
       <div className="items-center flex flex-wrap">
         <HeroTextInner />
       </div>

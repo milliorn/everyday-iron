@@ -72,7 +72,10 @@ function FooterAnchorContainer(): JSX.Element {
 /** container for footer */
 function FooterContainer(): JSX.Element {
   return (
-    <div className="flex flex-wrap  items-center justify-center align-center">
+    <div
+      className="flex flex-wrap  items-center justify-center align-center"
+      data-aos="fade"
+    >
       <div className="w-full lg:w-6/12 px-4">
         <h3 className="text-3xl font-semibold capitalize text-center font-serif">
           Follow us on social media!
@@ -113,7 +116,9 @@ function SlantRightUp(): JSX.Element {
 /** print copyright in footer */
 function Copyright(): JSX.Element {
   return (
-    <div className="flex flex-wrap items-center md:justify-between justify-center">
+    <div
+      className="flex flex-wrap items-center md:justify-between justify-center"
+    >
       <div className="w-full md:w-4/12 px-4 mx-auto text-center">
         <div className="text-sm text-gray-900 font-semibold py-1">
           Copyright © {new Date().getFullYear()} Everyday Iron Workout Warehouse
