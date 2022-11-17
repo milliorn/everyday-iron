@@ -34,11 +34,23 @@ function AboutTextContainer(): JSX.Element {
         <h2 className="sm:text-3xl 2xl:text-4xl text-xl uppercase font-bold font-serif	text-red-600 mt-4 sm:mt-0 text-center md:text-left">
           Rhino Performance
         </h2>
-        <p className="mt-4 text-lg leading-relaxed 2xl:text-3xl">
-          65 years of combined Expertise in Powerlifting, Olympic Weightlifting,
-          Strength Training, Bodybuilding and Weight Management.
-        </p>
         <AboutList />
+        <p className="mt-8 text-lg text-gray-300 xl:text-xl 2xl:text-3xl">
+          Want to compete in a sport? World Powerlifting Congress is the
+          premiere destination in Powerlifting. Visit the WPC website by
+          clicking on the button below and learn more!
+        </p>
+        <div className="text-center">
+          {/** https://stackoverflow.com/a/9721865/11986604 */}
+          <a
+            href="https://worldpowerliftingcongress.com/"
+            target="_blank"
+            className="bg-transparent hover:bg-red-600 text-red-600 font-semibold hover:text-white p-4 border border-red-600 hover:border-transparent rounded inline-block mt-8 cursor-pointer 2xl:text-2xl"
+            rel="noreferrer"
+          >
+            Go to WPC Website
+          </a>
+        </div>
       </div>
     </div>
   );
