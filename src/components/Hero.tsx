@@ -37,7 +37,7 @@ function HeroTextInner(): JSX.Element {
         className="bg-transparent hover:bg-red-600 text-red-600 font-semibold hover:bold hover:text-white p-4 border border-red-600 hover:border-transparent rounded inline-block mt-5 cursor-pointer 2xl:text-2xl"
         rel="noreferrer"
       >
-        Go to WPC Website
+        Let's Get Started!
       </a>
     </div>
   );
