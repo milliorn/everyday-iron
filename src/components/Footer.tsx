@@ -5,43 +5,43 @@ import uuid from "react-uuid";
 
 const footerData = [
   {
-    href: "https://cash.app/$RhinoLopez",
     app: <SiCashapp />,
+    href: "https://cash.app/$RhinoLopez",
     label: "cash app",
     class:
       "bg-green-500 text-white shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2 p-3",
   },
   {
-    href: "https://www.facebook.com/rhinosEI",
     app: <BsFacebook />,
+    href: "https://www.facebook.com/rhinosEI",
     label: "facebook",
     class:
       "bg-blue-500 text-white shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2 p-3",
   },
   {
-    href: "https://www.instagram.com/everyday_iron/",
     app: <BsInstagram />,
+    href: "https://www.instagram.com/everyday_iron/",
     label: "instagram",
     class:
       "bg-fuchsia-700 text-white shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2 p-3",
   },
   {
-    href: "https://goo.gl/maps/abEtXLCVTWeupqKD8",
     app: <SiGooglemaps />,
+    href: "https://goo.gl/maps/abEtXLCVTWeupqKD8",
     label: "google maps",
     class:
       "bg-red-500 text-white shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2 p-3",
   },
   {
-    href: "tel:+1-559-577-8679",
     app: <BsFillTelephoneFill />,
+    href: "tel:+1-559-577-8679",
     label: "phone number",
     class:
       "bg-orange-400 text-white shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2 p-3",
   },
   {
-    href: "mailto:everydayiron8489@gmail.com",
     app: <AiOutlineMail />,
+    href: "mailto:everydayiron8489@gmail.com",
     label: "email",
     class:
       "bg-red-600 text-white shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2 p-3",
@@ -54,13 +54,13 @@ function FooterAnchorContainer(): JSX.Element {
     <div className="mt-6 justify-center flex">
       {footerData.map((item) => (
         <a
-          className={item.class}
-          type="button"
-          href={item.href}
-          target="_blank"
-          rel="noreferrer"
           aria-label={item.label}
+          className={item.class}
+          href={item.href}
           key={uuid()}
+          rel="noreferrer"
+          target="_blank"
+          type="button"
         >
           {item.app}
         </a>

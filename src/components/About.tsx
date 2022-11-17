@@ -1,5 +1,4 @@
 import uuid from "react-uuid";
-
 import Monolith from "../assets/monolith.webp";
 
 const aboutData = [
@@ -12,7 +11,7 @@ const aboutData = [
 ];
 
 /** container to hold list items in about */
-function AboutList() {
+function AboutList(): JSX.Element {
   return (
     <ul className="list-none mt-6">
       {aboutData.map((about) => (
