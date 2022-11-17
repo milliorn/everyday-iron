@@ -5,31 +5,31 @@ import Mark from "../assets/mark.webp";
 
 const trainerData = [
   {
-    src: Mark,
-    width: "1440",
-    height: "1440",
     alt: "trainer mark",
     classCSS: "shadow-lg rounded max-w-full mx-auto",
-    trainer: "Mark Lopez",
+    height: "1440",
     info: "Owner | Trainer | APF Director",
+    src: Mark,
+    trainer: "Mark Lopez",
+    width: "1440",
   },
   {
-    src: Bob,
-    width: "1440",
-    height: "1440",
     alt: "trainer bob",
     classCSS: "shadow-lg rounded max-w-full mx-auto",
-    trainer: "Bob Packer",
+    height: "1440",
     info: "Sales | Trainer | Powerlifting Hall of Fame",
+    src: Bob,
+    trainer: "Bob Packer",
+    width: "1440",
   },
   {
-    src: Kim,
-    width: "889",
-    height: "1191",
     alt: "trainer kim",
     classCSS: "shadow-lg rounded max-w-full mx-auto md:max-h-[240px]",
-    trainer: "Kim Packer",
+    height: "1191",
     info: "Trainer | Competitive Powerlifter & Bodybuilder",
+    src: Kim,
+    trainer: "Kim Packer",
+    width: "889",
   },
 ];
 
@@ -53,24 +53,24 @@ function TrainerCardInnerText(props: {
 
 /** template to make trainer card image */
 function TrainerCardTemplate(props: {
-  src: string;
-  width: string;
-  height: string;
   alt: string;
   classCSS: string;
-  trainer: string;
+  height: string;
   info: string;
+  src: string;
+  trainer: string;
+  width: string;
 }): JSX.Element {
   const { src, width, height, alt, classCSS, trainer, info } = props;
   return (
     <div className="px-6">
       <img
-        src={src}
-        width={width}
-        height={height}
         alt={alt}
         className={classCSS}
+        height={height}
+        src={src}
         style={{ maxWidth: "240px" }}
+        width={width}
       />
       <TrainerCardInnerText trainer={trainer} info={info} />{" "}
     </div>
@@ -89,13 +89,13 @@ function TrainerCardWrapper() {
             key={uuid()}
           >
             <TrainerCardTemplate
-              src={data.src}
-              width={data.width}
-              height={data.height}
               alt={data.alt}
               classCSS={data.classCSS}
-              trainer={data.trainer}
+              height={data.height}
               info={data.info}
+              src={data.src}
+              trainer={data.trainer}
+              width={data.width}
             />
           </div>
         );
