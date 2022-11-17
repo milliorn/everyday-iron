@@ -13,7 +13,10 @@ export default function App(): JSX.Element {
   /** https://stackoverflow.com/a/59507994/11986604 */
   useEffect(() => {
     Aos.init({
-      duration: 3000,
+      /** https://github.com/michalsnik/aos#predefined-options */
+      duration: 2000, // values from 0 to 3000, with step 50ms
+      easing: "ease", // default easing for AOS animations
+      once: false, // whether animation should happen only once - while scrolling down
     });
   }, []);
 

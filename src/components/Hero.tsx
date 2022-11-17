@@ -28,16 +28,16 @@ function HeroTextInner(): JSX.Element {
         Welcome to The Official California American Powerlifting Federation Gym.
         Sanctioned by World Powerlifting Congress, it’s not just a gym but an
         environment for people of all walks of life. Owned and Operated by U.S.
-        ARMY Veteran. Ready to start your fitness journey? Scroll down to learn
-        more!
+        ARMY Veteran. Ready to start your fitness journey? Click the button
+        below or scroll down to learn more!
       </p>
       <a
-        href="https://worldpowerliftingcongress.com/"
+        href="https://guru.gyminsight.com/join/douN8BHlzer9cdt"
         target="_blank"
-        className="bg-transparent hover:bg-red-600 text-red-600 font-semibold hover:text-white p-4 border border-red-600 hover:border-transparent rounded inline-block mt-5 cursor-pointer 2xl:text-2xl"
+        className="bg-transparent hover:bg-red-600 text-red-600 font-semibold hover:bold hover:text-white p-4 border border-red-600 hover:border-transparent rounded inline-block mt-5 cursor-pointer 2xl:text-2xl"
         rel="noreferrer"
       >
-        Go to WPC Website
+        Let&apos;s Get Started!
       </a>
     </div>
   );
@@ -46,7 +46,7 @@ function HeroTextInner(): JSX.Element {
 /** wrapper text and button for hero image */
 function HeroTextContainer(): JSX.Element {
   return (
-    <div className="container relative mx-auto" data-aos="fade-in">
+    <div className="container relative mx-auto" data-aos="fade">
       <div className="items-center flex flex-wrap">
         <HeroTextInner />
       </div>
