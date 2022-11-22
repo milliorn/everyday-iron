@@ -141,6 +141,7 @@ function TrainerButtonTraining(): JSX.Element {
   );
 }
 
+// button that redirects to making tour appointment
 function TrainerButtonTour(): JSX.Element {
   return (
     <div className="w-full lg:w-6/12 px-4 pt-8 sm:pt-8 mx-auto text-center">
