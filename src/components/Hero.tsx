@@ -29,9 +29,9 @@ function HeroTextInner(): JSX.Element {
         American Powerlifting Federation, powered by the World Powerlifting
         Congress. We are not just a gym, we are a training facility optimized to
         adhere all walks of life, all training needs and styles. Owned and
-        Operated by U.S. ARMY Veteran and Competitive Powerlifter "Mark
-        "Rhino" Lopez. If you&apos;re ready to take the Rhino challenge scroll
-        down to learn more.
+        Operated by U.S. ARMY Veteran and Competitive Powerlifter Mark
+        &quot;Rhino&quot; Lopez. If you&apos;re ready to take the Rhino
+        challenge scroll down to learn more.
       </p>
       <a
         href="https://guru.gyminsight.com/join/douN8BHlzer9cdt"
