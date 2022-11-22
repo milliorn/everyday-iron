@@ -2,6 +2,7 @@ import uuid from "react-uuid";
 import Bob from "../assets/bob.webp";
 import Kim from "../assets/kim.webp";
 import Mark from "../assets/mark.webp";
+import { Img } from "react-image";
 
 const trainerData = [
   {
@@ -64,7 +65,7 @@ function TrainerCardTemplate(props: {
   const { src, width, height, alt, classCSS, trainer, info } = props;
   return (
     <div className="px-6">
-      <img
+      <Img
         alt={alt}
         className={classCSS}
         height={height}
