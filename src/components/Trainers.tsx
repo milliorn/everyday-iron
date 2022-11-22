@@ -2,6 +2,8 @@ import uuid from "react-uuid";
 import Bob from "../assets/bob.webp";
 import Kim from "../assets/kim.webp";
 import Mark from "../assets/mark.webp";
+import { Img } from "react-image";
+import { Suspense } from "react";
 
 const trainerData = [
   {
@@ -64,14 +66,16 @@ function TrainerCardTemplate(props: {
   const { src, width, height, alt, classCSS, trainer, info } = props;
   return (
     <div className="px-6">
-      <img
-        alt={alt}
-        className={classCSS}
-        height={height}
-        src={src}
-        style={{ maxWidth: "240px" }}
-        width={width}
-      />
+      <Suspense>
+        <Img
+          alt={alt}
+          className={classCSS}
+          height={height}
+          src={src}
+          style={{ maxWidth: "240px" }}
+          width={width}
+        />
+      </Suspense>
       <TrainerCardInnerText trainer={trainer} info={info} />
     </div>
   );
