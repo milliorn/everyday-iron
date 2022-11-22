@@ -25,11 +25,11 @@ function HeroTextInner(): JSX.Element {
         <span>Everyday</span> <span className="text-white">Iron</span>
       </h1>
       <p className="mt-4 text-lg text-gray-300 xl:text-xl 2xl:text-3xl">
-        Welcome to Everyday Iron, the official training site for California
+        Welcome to Everyday Iron, the Official Training Site for California
         American Powerlifting Federation, powered by the World Powerlifting
         Congress. We are not just a gym, we are a training facility optimized to
         adhere all walks of life, all training needs and styles. Owned and
-        Operated by U.S. ARMY Veteran and competitive power lifter "Mark
+        Operated by U.S. ARMY Veteran and Competitive Powerlifter "Mark
         "Rhino" Lopez. If you&apos;re ready to take the Rhino challenge scroll
         down to learn more.
       </p>
