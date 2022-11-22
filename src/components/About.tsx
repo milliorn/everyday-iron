@@ -2,12 +2,12 @@ import uuid from "react-uuid";
 import Monolith from "../assets/monolith.webp";
 
 const aboutData = [
-  "WPC Approved Equipment.",
+  "APF/WPC Approved Equipment.",
   "York, Texas, Ohio, Swiss, Hex Barbells.",
   "Dumbbell Weights including Olympic Handles.",
   "Isolation and Cable Machines for Bodybuilding",
   "Cardio Equipment",
-  "Want to compete in a sport? The World Powerlifting Congress exist in 46 countries. Known as a Lifter's Organization, the WPC supports the interest of the lifter with constant review of the rules.",
+  "Rhinos Athletic Performance is certified in sport specific training, as well as sports nutrition and injury rehabilitation.",
 ];
 
 /** container to hold list items in about */
@@ -49,7 +49,7 @@ function AboutTextContainer(): JSX.Element {
     <div className="w-full md:w-5/12 ml-auto mr-auto px-4" data-aos="fade">
       <div className="md:pr-12">
         <h2 className="sm:text-3xl 2xl:text-4xl text-xl uppercase font-bold font-serif	text-red-600 mt-4 sm:mt-0 text-center md:text-left">
-          Rhino Performance
+          Rhino ATHLETIC Performance
         </h2>
         <AboutList />
         <AboutWpc />

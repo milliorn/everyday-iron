@@ -25,11 +25,13 @@ function HeroTextInner(): JSX.Element {
         <span>Everyday</span> <span className="text-white">Iron</span>
       </h1>
       <p className="mt-4 text-lg text-gray-300 xl:text-xl 2xl:text-3xl">
-        Welcome to The Official California American Powerlifting Federation Gym.
-        Sanctioned by World Powerlifting Congress, it’s not just a gym but an
-        environment for people of all walks of life. Owned and Operated by U.S.
-        ARMY Veteran. Ready to start your fitness journey? Click the button
-        below or scroll down to learn more!
+        Welcome to Everyday Iron, the Official Training Site for California
+        American Powerlifting Federation, powered by the World Powerlifting
+        Congress. We are not just a gym, we are a training facility optimized to
+        adhere all walks of life, all training needs and styles. Owned and
+        Operated by U.S. ARMY Veteran and Competitive Powerlifter Mark
+        &quot;Rhino&quot; Lopez. If you&apos;re ready to take the Rhino
+        challenge scroll down to learn more.
       </p>
       <a
         href="https://guru.gyminsight.com/join/douN8BHlzer9cdt"
