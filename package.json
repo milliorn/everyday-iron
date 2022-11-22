@@ -3,7 +3,6 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@types/aos": "^3.0.4",
     "aos": "^2.3.4",
     "cra-template": "1.2.0",
     "react": "^18.2.0",
@@ -37,6 +36,7 @@
     ]
   },
   "devDependencies": {
+    "@types/aos": "^3.0.4",
     "@types/node": "^18.11.9",
     "@types/react": "^18.0.25",
     "@types/react-dom": "^18.0.8",
