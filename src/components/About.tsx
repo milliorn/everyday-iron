@@ -60,21 +60,28 @@ function AboutTextContainer(): JSX.Element {
   );
 }
 
+/** templae for image */
+function AboutImage(): JSX.Element {
+  return (
+    <div className="w-full md:w-7/12 mx-auto px-4" data-aos="fade">
+      <Suspense>
+        <Img
+          src={Monolith}
+          alt="monolift"
+          width={1440}
+          height={1080}
+          className="max-w-full rounded-lg shadow-lg opacity-60"
+        />
+      </Suspense>
+    </div>
+  );
+}
+
 /** wrapper for component */
 function AboutWrapper(): JSX.Element {
   return (
     <div className="items-center flex flex-wrap">
-      <div className="w-full md:w-7/12 mx-auto px-4" data-aos="fade">
-        <Suspense>
-          <Img
-            src={Monolith}
-            alt="monolift"
-            width={1440}
-            height={1080}
-            className="max-w-full rounded-lg shadow-lg opacity-60"
-          />
-        </Suspense>
-      </div>
+      <AboutImage />
       <AboutTextContainer />
     </div>
   );
