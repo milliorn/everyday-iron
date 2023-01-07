@@ -1,29 +1,13 @@
-import Aos from "aos";
-import 'aos/dist/aos.css';
-import { useEffect } from "react";
-import About from "./components/About";
-import Footer from "./components/Footer";
-import Hero from "./components/Hero";
-import Trainers from "./components/Trainers";
+import { Route, Routes } from "react-router-dom";
+import Main from "./pages/Main";
+import Waiver from "./pages/Waiver";
 
 /** main app */
 export default function App(): JSX.Element {
-  /** https://stackoverflow.com/a/59507994/11986604 */
-  useEffect(() => {
-    Aos.init({
-      /** https://github.com/michalsnik/aos#predefined-options */
-      duration: 1000, // values from 0 to 3000, with step 50ms
-      easing: "ease", // default easing for AOS animations
-      once: false, // whether animation should happen only once - while scrolling down
-    });
-  }, []);
-
   return (
-    <>
-      <Hero />
-      <About />
-      <Trainers />
-      <Footer />
-    </>
+    <Routes>
+      <Route path="/" index element={<Main />} />
+      <Route path="/waiver" element={<Waiver />} />
+    </Routes>
   );
 }
