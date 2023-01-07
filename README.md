@@ -12,3 +12,7 @@
 This project was bootstrapped with [Create React App](https://create-react-app.dev/docs/adding-typescript/) and [TailwindCSS](https://tailwindcss.com/docs/guides/create-react-app).
 
 `tsconfig.json` built from [Microsoft TypeScript-React-Starter](https://github.com/microsoft/TypeScript-React-Starter/blob/master/tsconfig.json)
+
+Main page -> https://everyday-iron.netlify.app/
+
+Waiver -> https://everyday-iron.netlify.app/waiver
