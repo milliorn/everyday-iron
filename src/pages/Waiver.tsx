@@ -1,6 +1,6 @@
 import { Copyright } from "../components/Footer";
 
-//
+// Waiver page
 function Waiver(): JSX.Element {
   return (
     <div className="font-serif my-0 mx-12 sm:mx-24">
