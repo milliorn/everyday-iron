@@ -1,4 +1,4 @@
-import { Copyright } from "../components/Footer";
+import { Copyright } from "../components/Footers/Copyright";
 
 // Waiver page
 function Waiver(): JSX.Element {

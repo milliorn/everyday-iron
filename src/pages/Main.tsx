@@ -2,7 +2,7 @@ import Aos from "aos";
 import 'aos/dist/aos.css';
 import { useEffect } from "react";
 import About from "../components/Abouts/About";
-import Footer from "../components/Footer";
+import Footer from "../components/Footers/Footer";
 import Hero from "../components/Heroes/Hero";
 import Trainers from "../components/Trainers";
 
