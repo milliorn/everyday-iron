@@ -6,6 +6,7 @@ import { HeroTextContainer } from "./HeroTextContainer";
 export default function Hero(): JSX.Element {
   return (
     <div
+      id="home"
       className="relative pt-16 pb-32 flex content-center items-center justify-center"
       style={{ minHeight: "95vh" }}
     >

@@ -4,7 +4,7 @@ import { TrainerText } from "./TrainerText";
 /** app trainer roster */
 export default function Trainers(): JSX.Element {
   return (
-    <section className="pt-20 pb-48 bg-neutral-900">
+    <section id="trainer" className="pt-20 pb-48 bg-neutral-900">
       <div className="container mx-auto px-4">
         <TrainerText />
         <TrainerCardWrapper />
