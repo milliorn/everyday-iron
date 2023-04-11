@@ -2,7 +2,7 @@ import { Disclosure } from "@headlessui/react";
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
 
 const navigation = [
-  { name: "Home", href: "#home", current: true, target: "" },
+  { name: "Home", href: "#home", current: false, target: "" },
   { name: "About", href: "#about", current: false, target: "" },
   { name: "Trainers", href: "#trainer", current: false, target: "" },
   { name: "Contact", href: "#contact", current: false, target: "" },
@@ -32,7 +32,7 @@ export default function Navbar() {
                 </Disclosure.Button>
               </div>
 
-              <div className="flex flex-1 items-center justify-center sm:items-stretch sm:justify-end">
+              <div className="flex flex-1 items-center justify-center sm:items-stretch">
                 <div className="hidden sm:ml-6 sm:block ml-auto">
                   <div className="flex space-x-4">
                     {navigation.map((item) => (
