@@ -1,7 +1,7 @@
 import { Route, Routes, useLocation } from "react-router-dom";
 import Main from "./pages/Main";
 import Waiver from "./pages/Waiver";
-import Navbar from "./components/Navbar";
+import Navbar from "./components/Navigation/Navbar";
 
 /** main app */
 export default function App(): JSX.Element {
