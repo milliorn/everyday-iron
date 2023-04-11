@@ -13,7 +13,8 @@ export function HeroOverlay(): JSX.Element {
       >
         <span
           id="blackOverlay"
-          className="w-full h-full absolute opacity-80 bg-black" />
+          className="w-full h-full absolute opacity-80 bg-black"
+        />
       </div>
     </Suspense>
   );

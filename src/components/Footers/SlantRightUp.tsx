@@ -15,7 +15,8 @@ export function SlantRightUp(): JSX.Element {
       >
         <polygon
           className="text-gray-300 fill-current"
-          points="2560 0 2560 100 0 100" />
+          points="2560 0 2560 100 0 100"
+        />
       </svg>
     </div>
   );

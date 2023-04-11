@@ -1,5 +1,5 @@
 import Aos from "aos";
-import 'aos/dist/aos.css';
+import "aos/dist/aos.css";
 import { useEffect } from "react";
 import About from "../components/Abouts/About";
 import Footer from "../components/Footers/Footer";
