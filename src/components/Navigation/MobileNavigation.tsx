@@ -1,6 +1,6 @@
 import { Disclosure } from "@headlessui/react";
 import { navigation } from "./navigation";
-import { classNames } from "./Navbar";
+import { classNames } from "./classNames";
 
 // Mobile navigation
 export function MobileNavigation(): JSX.Element {

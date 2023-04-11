@@ -1,5 +1,5 @@
+import { classNames } from "./classNames";
 import { navigation } from "./navigation";
-import { classNames } from "./Navbar";
 
 // generate links in navbar
 export function DesktopNavigationLinks(): JSX.Element {
