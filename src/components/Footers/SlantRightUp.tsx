@@ -3,7 +3,7 @@ export function SlantRightUp(): JSX.Element {
   return (
     <div
       className="bottom-auto top-0 left-0 right-0 w-full absolute pointer-events-none overflow-hidden -mt-20 "
-      style={{ height: `80px`, transform: `translateZ(0px)` }}
+      style={{ height: "80px", transform: "translateZ(0px)" }}
     >
       <svg
         className="absolute bottom-0 overflow-hidden"
