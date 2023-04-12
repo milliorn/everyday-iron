@@ -1,10 +1,10 @@
 import Aos from "aos";
-import 'aos/dist/aos.css';
+import "aos/dist/aos.css";
 import { useEffect } from "react";
-import About from "../components/About";
-import Footer from "../components/Footer";
-import Hero from "../components/Hero";
-import Trainers from "../components/Trainers";
+import About from "../components/Abouts/About";
+import Footer from "../components/Footers/Footer";
+import Hero from "../components/Heroes/Hero";
+import Trainers from "../components/Trainer/Trainers";
 
 /** main app */
 export default function App(): JSX.Element {
