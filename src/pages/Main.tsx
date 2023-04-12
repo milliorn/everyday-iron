@@ -5,6 +5,7 @@ import About from "../components/Abouts/About";
 import Footer from "../components/Footers/Footer";
 import Hero from "../components/Heroes/Hero";
 import Trainers from "../components/Trainer/Trainers";
+import Event from "../components/Events/Event";
 
 /** main app */
 export default function App(): JSX.Element {
@@ -23,6 +24,7 @@ export default function App(): JSX.Element {
       <Hero />
       <About />
       <Trainers />
+      <Event />
       <Footer />
     </>
   );
