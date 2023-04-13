@@ -32,3 +32,14 @@ jobs:
         folder: build
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      id: deploy
+
+    - name: Set deployment URL as output
+      run: echo "::set-env name=DEPLOYMENT_URL::${{ env.DEPLOYMENT_URL }}"
+      shell: bash
+
+      env:
+        DEPLOYMENT_URL: ${{ steps.deploy.outputs.deployment_url }}
+
+    - name: Set deployment URL as output
+      run: echo "::set-env name=DEPLOYMENT_URL::${{ env.DEPLOYMENT_URL }}"
