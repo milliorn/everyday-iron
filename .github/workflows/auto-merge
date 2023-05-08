@@ -1,0 +1,21 @@
+name: Dependabot Auto-Merge
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  merge:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+      - name: Dependabot Auto-Merge
+        uses: dependabot/dependabot-auto-merge@v0.5.0
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          update_pattern: "^(\\w+\\/\\w+)@v\\d+\\.\\d+\\.\\d+$"
+          update_type: "security,dependencies"
+          automerge: "true"
+          automerge_strategy: "squash"
