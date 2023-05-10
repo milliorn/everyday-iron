@@ -12,9 +12,9 @@ jobs:
         uses: ahmadnassri/action-dependabot-auto-merge@v2
         with:
           target: minor
-          github-token: ${{ secrets.mytoken }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       - name: Auto-merge patch changes
         uses: ahmadnassri/action-dependabot-auto-merge@v2
         with:
           target: patch
-          github-token: ${{ secrets.mytoken }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
