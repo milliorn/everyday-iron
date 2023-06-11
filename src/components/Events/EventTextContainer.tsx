@@ -7,7 +7,7 @@ export function EventTextContainer(): JSX.Element {
     <div className="w-full md:w-5/12 ml-auto mr-auto px-4" data-aos="fade">
       <div className="md:pr-12">
         <h2 className="sm:text-4xl text-3xl 2xl:text-6xl uppercase font-extrabold font-serif	text-red-600 mt-4 sm:mt-0 text-center md:text-left">
-          Bending Bars @ Tilted AF
+          Santa Barbara Summer Showdown
         </h2>
         <EventList />
         <EventSignUpButton />
