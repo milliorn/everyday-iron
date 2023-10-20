@@ -1,10 +1,10 @@
-import image from "../../assets/2023_santa_barbara.jpg";
+import image from "../../assets/iron_man_2023.jpg";
 import { Img } from "react-image";
 
 /** template for image */
 export function EventImage(): JSX.Element {
   return (
-    <div className="w-full md:w-7/12 mx-auto px-4" data-aos="fade">
+    <div className="w-full px-4 mx-auto md:w-7/12" data-aos="fade">
       <Img
         src={image}
         alt="monolift"
